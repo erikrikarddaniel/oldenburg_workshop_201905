@@ -12,6 +12,7 @@ conda install -c conda-forge h5py
 ## Converting to tsv and importing into R with Tidyverse
 
 ```{bash}
+biom convert -i feature-table.biom --to-tsv -o feature-table.tsv
 ```
 
 ```{R}
