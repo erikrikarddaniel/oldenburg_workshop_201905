@@ -1,817 +1,314 @@
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-  <link rel="dns-prefetch" href="https://github.githubassets.com">
-  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
-  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
-
-
-
-  <link crossorigin="anonymous" media="all" integrity="sha512-HlgX4s+P4ikUGWRu6fvWIVak24jAHDOE7IzlHFtcW54px5zDZvAXO8xY42wXJNZ7PChlgxFwwdMH4tyMFCop6g==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-2322f54af916007dd939df6c24bd2264.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-pSSFGNiV1iXIGXRof04PZsZm/MshYNORLjGHBVeq9RJORXac9Ohy8vWsx9sa9+jAPHjNnarRyFIqHACEx694wg==" rel="stylesheet" href="https://github.githubassets.com/assets/site-5d53792753944029c2f138a25c1843e2.css" />
-    <link crossorigin="anonymous" media="all" integrity="sha512-5aDIqpwld2jpJ1zumf4jmDHMLhvGP2q+70nS+7tIRgyXvSdkeLhArVJIEWOzy0mBUxkCrTBch8hqwWpSRW/Zzg==" rel="stylesheet" href="https://github.githubassets.com/assets/github-b12df75472e94f7ba47894c891ffa407.css" />
-    
-    
-    
-    
-
-  <meta name="viewport" content="width=device-width">
-  
-  <title>hex-stickers/dplyr.svg at master · rstudio/hex-stickers · GitHub</title>
-    <meta name="description" content="RStudio hex stickers. Contribute to rstudio/hex-stickers development by creating an account on GitHub.">
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
-  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
-  <meta property="fb:app_id" content="1401488693436528">
-
-    
-    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/513560?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="rstudio/hex-stickers" /><meta property="og:url" content="https://github.com/rstudio/hex-stickers" /><meta property="og:description" content="RStudio hex stickers. Contribute to rstudio/hex-stickers development by creating an account on GitHub." />
-
-  <link rel="assets" href="https://github.githubassets.com/">
-  
-  <meta name="pjax-timeout" content="1000">
-  
-  <meta name="request-id" content="AADB:191A:14148C5:24E57E2:5CB4152A" data-pjax-transient>
-
-
-  
-
-  <meta name="selected-link" value="repo_source" data-pjax-transient>
-
-      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
-    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
-    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
-
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="AADB:191A:14148C5:24E57E2:5CB4152A" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
-<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
-
-
-
-    <meta name="google-analytics" content="UA-3769691-2">
-
-
-<meta class="js-ga-set" name="dimension1" content="Logged Out">
-
-
-
-  
-
-      <meta name="hostname" content="github.com">
-    <meta name="user-login" content="">
-
-      <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="YTliMjY4NzI5NzlhYzhjMGFjMDFhZWRkOTNlNThmN2Y3ZjE5NjJjM2RhYWQ3MDBhNDA0YmNmNzM0NmQ2ZDQwY3x7InJlbW90ZV9hZGRyZXNzIjoiODUuMTk0LjYuMTY3IiwicmVxdWVzdF9pZCI6IkFBREI6MTkxQToxNDE0OEM1OjI0RTU3RTI6NUNCNDE1MkEiLCJ0aW1lc3RhbXAiOjE1NTUzMDU3NzEsImhvc3QiOiJnaXRodWIuY29tIn0=">
-
-    <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_ENTERPRISE_CONTACTS,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS">
-
-  <meta name="html-safe-nonce" content="59da8f5940e6d08a5ece17b19642aae284ee1698">
-
-  <meta http-equiv="x-pjax-version" content="aa7357e050fb6bc437979486587f00fe">
-  
-
-      <link href="https://github.com/rstudio/hex-stickers/commits/master.atom" rel="alternate" title="Recent Commits to hex-stickers:master" type="application/atom+xml">
-
-  <meta name="go-import" content="github.com/rstudio/hex-stickers git https://github.com/rstudio/hex-stickers.git">
-
-  <meta name="octolytics-dimension-user_id" content="513560" /><meta name="octolytics-dimension-user_login" content="rstudio" /><meta name="octolytics-dimension-repository_id" content="127026863" /><meta name="octolytics-dimension-repository_nwo" content="rstudio/hex-stickers" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="127026863" /><meta name="octolytics-dimension-repository_network_root_nwo" content="rstudio/hex-stickers" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
-
-
-    <link rel="canonical" href="https://github.com/rstudio/hex-stickers/blob/master/SVG/dplyr.svg" data-pjax-transient>
-
-
-  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
-
-  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
-
-  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
-  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
-
-<meta name="theme-color" content="#1e2327">
-
-
-
-
-  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class="logged-out env-production page-blob">
-    
-
-  <div class="position-relative js-header-wrapper ">
-    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
-    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
-
-    
-    
-    
-
-
-        <header class="Header-old header-logged-out  position-relative f4 py-2" role="banner">
-  <div class="container-lg d-flex px-3">
-    <div class="d-flex flex-justify-between flex-items-center">
-        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
-          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-        </a>
-    </div>
-
-    <div class="HeaderMenu HeaderMenu--logged-out d-flex flex-justify-between flex-items-center flex-auto">
-      <div class="d-none">
-        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
-          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-        </button>
-      </div>
-
-        <nav class="mt-0" aria-label="Global">
-          <ul class="d-flex list-style-none">
-              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
-                <details class="HeaderMenu-details details-overlay details-reset width-full">
-                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
-                    Why GitHub?
-                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
-                      <path d="M1,1l6.2,6L13,1"></path>
-                    </svg>
-                  </summary>
-                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0  p-4 left-n4 position-absolute">
-                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
-                    <ul class="list-style-none f5 pb-3">
-                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
-                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
-                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
-                      <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a>
-                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
-                      <li class="edge-item-fix"><a href="/features#social-coding" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Social coding">Social coding</a></li>
-                      <li class="edge-item-fix"><a href="/features#documentation" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Documentation">Documentation</a></li>
-                      <li class="edge-item-fix"><a href="/features#code-hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Code hosting</a></li>
-                    </ul>
-
-                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
-                      <li class="edge-item-fix"><a href="/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
-                    </ul>
-                  </div>
-                </details>
-              </li>
-              <li class=" mr-3 mr-lg-3">
-                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
-              </li>
-
-              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
-                <details class="HeaderMenu-details details-overlay details-reset width-full">
-                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
-                    Explore
-                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
-                      <path d="M1,1l6.2,6L13,1"></path>
-                    </svg>
-                  </summary>
-
-                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0  p-4 left-n4 position-absolute">
-                    <ul class="list-style-none mb-3">
-                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
-                    </ul>
-
-                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Learn &amp; contribute</h4>
-                    <ul class="list-style-none mb-3">
-                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
-                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
-                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
-                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
-                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
-                    </ul>
-
-                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Connect with others</h4>
-                    <ul class="list-style-none mb-0">
-                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
-                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
-                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
-                    </ul>
-                  </div>
-                </details>
-              </li>
-
-              <li class=" mr-3 mr-lg-3">
-                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
-              </li>
-
-              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
-                <details class="HeaderMenu-details details-overlay details-reset width-full">
-                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
-                    Pricing
-                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
-                       <path d="M1,1l6.2,6L13,1"></path>
-                    </svg>
-                  </summary>
-
-                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0  p-4 left-n4 position-absolute">
-                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
-
-                    <ul class="list-style-none mb-3">
-                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans</a></li>
-                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales</a></li>
-                    </ul>
-
-                    <ul class="list-style-none mb-0  border-top pt-3">
-                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
-                    </ul>
-                  </div>
-                </details>
-              </li>
-          </ul>
-        </nav>
-
-      <div class="d-flex flex-items-center px-0 text-center text-left">
-          <div class="d-lg-flex ">
-            <div class="header-search mr-3 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
-  role="combobox"
-  aria-owns="jump-to-results"
-  aria-label="Search or jump to"
-  aria-haspopup="listbox"
-  aria-expanded="false"
->
-  <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="127026863" data-scoped-search-url="/rstudio/hex-stickers/search" data-unscoped-search-url="/search" action="/rstudio/hex-stickers/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
-      <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
-        <input type="text"
-          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
-          data-hotkey="s,/"
-          name="q"
-          value=""
-          placeholder="Search"
-          data-unscoped-placeholder="Search GitHub"
-          data-scoped-placeholder="Search"
-          autocapitalize="off"
-          aria-autocomplete="list"
-          aria-controls="jump-to-results"
-          aria-label="Search"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=Z+Fq/rEArLTHO/DP9KrJ+HyBE26GzTv5UxFsqAaxTp1WwsmePpcCckT4Oy1mEgTy4HUIkG6SolXKWzzTgfIjIQ=="
-          spellcheck="false"
-          autocomplete="off"
-          >
-          <input type="hidden" class="js-site-search-type-field" name="type" >
-            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
-
-            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
-              
-<ul class="d-none js-jump-to-suggestions-template-container">
-  
-
-<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
-  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
-    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
-    </div>
-
-    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
-
-    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
-    </div>
-
-    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
-      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
-        In this repository
-      </span>
-      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
-        All GitHub
-      </span>
-      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-
-    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
-      Jump to
-      <span class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-  </a>
-</li>
-
-</ul>
-
-<ul class="d-none js-jump-to-no-results-template-container">
-  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
-    <span class="text-gray">No suggested jump to results</span>
-  </li>
-</ul>
-
-<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
-  
-
-<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
-  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
-    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
-    </div>
-
-    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
-
-    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
-    </div>
-
-    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
-      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
-        In this repository
-      </span>
-      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
-        All GitHub
-      </span>
-      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-
-    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
-      Jump to
-      <span class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-  </a>
-</li>
-
-  
-
-<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
-  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
-    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
-    </div>
-
-    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
-
-    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
-    </div>
-
-    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
-      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
-        In this repository
-      </span>
-      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
-        All GitHub
-      </span>
-      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-
-    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
-      Jump to
-      <span class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-  </a>
-</li>
-
-
-</ul>
-
-            </div>
-      </label>
-</form>  </div>
-</div>
-
-          </div>
-
-        <a class="HeaderMenu-link no-underline mr-3" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;AADB:191A:14148C5:24E57E2:5CB4152A&quot;,&quot;originating_url&quot;:&quot;https://github.com/rstudio/hex-stickers/blob/master/SVG/dplyr.svg&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="cdd39185fa9c93f62ca6ff70eacb3f58dd5831aacd99a1dd2f1c1747225cefbe" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in" href="/login?return_to=%2Frstudio%2Fhex-stickers%2Fblob%2Fmaster%2FSVG%2Fdplyr.svg">
-          Sign&nbsp;in
-</a>          <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;AADB:191A:14148C5:24E57E2:5CB4152A&quot;,&quot;originating_url&quot;:&quot;https://github.com/rstudio/hex-stickers/blob/master/SVG/dplyr.svg&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="62b9e1410923b86947093ef2612915b4b9c125621e22836b57f72d1158cf63ca" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up" href="/join">
-            Sign&nbsp;up
-</a>      </div>
-    </div>
-  </div>
-</header>
-
-  </div>
-
-  <div id="start-of-content" class="show-on-focus"></div>
-
-    <div id="js-flash-container">
-
-</div>
-
-
-
-  <div class="application-main " data-commit-hovercards-enabled>
-        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
-    <main id="js-repo-pjax-container" data-pjax-container >
-      
-
-
-  
-
-
-
-  
-
-
-
-
-  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
-    <div class="repohead-details-container clearfix container">
-
-      <ul class="pagehead-actions">
-
-
-
-  <li>
-    
-  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;AADB:191A:14148C5:24E57E2:5CB4152A&quot;,&quot;originating_url&quot;:&quot;https://github.com/rstudio/hex-stickers/blob/master/SVG/dplyr.svg&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="99e3ad21be6d60ffef75bb3486dde2d9cf8ba5fb94a757569cebfc1e698d2321" href="/login?return_to=%2Frstudio%2Fhex-stickers">
-    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-    Watch
-</a>    <a class="social-count" href="/rstudio/hex-stickers/watchers"
-       aria-label="62 users are watching this repository">
-      62
-    </a>
-
-  </li>
-
-  <li>
-        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:127026863,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;AADB:191A:14148C5:24E57E2:5CB4152A&quot;,&quot;originating_url&quot;:&quot;https://github.com/rstudio/hex-stickers/blob/master/SVG/dplyr.svg&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="8abea977a5bc023f3f1152b3859004f456c084816b9053492d613e1fee0ce368" href="/login?return_to=%2Frstudio%2Fhex-stickers">
-      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-      Star
-</a>
-    <a class="social-count js-social-count" href="/rstudio/hex-stickers/stargazers"
-      aria-label="90 users starred this repository">
-      90
-    </a>
-
-  </li>
-
-  <li>
-      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:127026863,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;AADB:191A:14148C5:24E57E2:5CB4152A&quot;,&quot;originating_url&quot;:&quot;https://github.com/rstudio/hex-stickers/blob/master/SVG/dplyr.svg&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ceab1842dc9e251ff1bcf7f82f838c75a195e02e48dd1ffa9769fb809fadbfd1" href="/login?return_to=%2Frstudio%2Fhex-stickers">
-        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-        Fork
-</a>
-    <a href="/rstudio/hex-stickers/network/members" class="social-count"
-       aria-label="28 users forked this repository">
-      28
-    </a>
-  </li>
-</ul>
-
-      <h1 class="public ">
-  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/rstudio/hovercard" href="/rstudio">rstudio</a></span><!--
---><span class="path-divider">/</span><!--
---><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/rstudio/hex-stickers">hex-stickers</a></strong>
-
-</h1>
-
-    </div>
-    
-<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
-     itemscope
-     itemtype="http://schema.org/BreadcrumbList"
-    aria-label="Repository"
-     data-pjax="#js-repo-pjax-container">
-
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /rstudio/hex-stickers" href="/rstudio/hex-stickers">
-      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
-      <span itemprop="name">Code</span>
-      <meta itemprop="position" content="1">
-</a>  </span>
-
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /rstudio/hex-stickers/issues" href="/rstudio/hex-stickers/issues">
-        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
-        <span itemprop="name">Issues</span>
-        <span class="Counter">2</span>
-        <meta itemprop="position" content="2">
-</a>    </span>
-
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /rstudio/hex-stickers/pulls" href="/rstudio/hex-stickers/pulls">
-      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-      <span itemprop="name">Pull requests</span>
-      <span class="Counter">0</span>
-      <meta itemprop="position" content="3">
-</a>  </span>
-
-
-
-
-
-
-    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people alerts /rstudio/hex-stickers/pulse" href="/rstudio/hex-stickers/pulse">
-      <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
-      Insights
-</a>
-
-</nav>
-
-
-  </div>
-<div class="container new-discussion-timeline experiment-repo-nav  ">
-  <div class="repository-content ">
-
-    
-    
-
-
-
-  
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/rstudio/hex-stickers/blob/5c96577572b8fe3d23f9e58888abe1f32d148003/SVG/dplyr.svg">Permalink</a>
-
-    <!-- blob contrib key: blob_contributors:v21:e993a6f2e612bd69a4eede51034975de -->
-
-        <div class="signup-prompt-bg rounded-1">
-      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
-        <div class="position-relative">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="hMCgvgXtgiOS/57s76Gge2DRuzBmd4bnkpX9eK8QZiBaHyXaf7VDl3GlrSZm8yfwJTr7cNakN0jtuYj6BH4hcQ==" />
-            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
-              Dismiss
-            </button>
-</form>          <h3 class="pt-2">Join GitHub today</h3>
-          <p class="col-6 mx-auto">GitHub is home to over 31 million developers working together to host and review code, manage projects, and build software together.</p>
-          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;AADB:191A:14148C5:24E57E2:5CB4152A&quot;,&quot;originating_url&quot;:&quot;https://github.com/rstudio/hex-stickers/blob/master/SVG/dplyr.svg&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1ac1c4d15648dede78d73cc55a9cff1307137636a216f554241c9cf54dac1c6e" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show">Sign up</a>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="d-flex flex-items-start mb-3">
-      <span class="d-flex flex-justify-between">
-        
-<details class="details-reset details-overlay select-menu branch-select-menu ">
-  <summary class="btn btn-sm select-menu-button css-truncate"
-           data-hotkey="w"
-           
-           title="Switch branches or tags">
-    <i>Branch:</i>
-    <span class="css-truncate-target">master</span>
-  </summary>
-
-  <details-menu class="select-menu-modal position-absolute" style="z-index: 99;" src="/rstudio/hex-stickers/ref-list/master/SVG/dplyr.svg?source_action=show&amp;source_controller=blob" preload>
-    <include-fragment class="select-menu-loading-overlay anim-pulse">
-      <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
-    </include-fragment>
-  </details-menu>
-</details>
-
-        <div class="BtnGroup flex-shrink-0 d-none">
-          <a href="/rstudio/hex-stickers/find/master"
-                class="js-pjax-capture-input btn btn-sm BtnGroup-item"
-                data-pjax
-                data-hotkey="t">
-            Find file
-          </a>
-          <clipboard-copy value="SVG/dplyr.svg" class="btn btn-sm BtnGroup-item">
-            Copy path
-          </clipboard-copy>
-        </div>
-      </span>
-      <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 ml-2 mr-3">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/rstudio/hex-stickers"><span>hex-stickers</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/rstudio/hex-stickers/tree/master/SVG"><span>SVG</span></a></span><span class="separator">/</span><strong class="final-path">dplyr.svg</strong>
-      </h2>
-
-      <div class="BtnGroup flex-shrink-0 d-inline-block">
-        <a href="/rstudio/hex-stickers/find/master"
-              class="js-pjax-capture-input btn btn-sm BtnGroup-item"
-              data-pjax
-              data-hotkey="t">
-          Find file
-        </a>
-        <clipboard-copy value="SVG/dplyr.svg" class="btn btn-sm BtnGroup-item">
-          Copy path
-        </clipboard-copy>
-      </div>
-    </div>
-
-
-
-    
-  <div class="Box Box--condensed d-flex flex-column flex-shrink-0">
-      <div class="Box-body d-flex flex-justify-between bg-blue-light flex-items-center">
-        <span class="pr-md-4 f6">
-          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=4196" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/hadley"><img class="avatar" src="https://avatars3.githubusercontent.com/u/4196?s=40&amp;v=4" width="20" height="20" alt="@hadley" /></a>
-          <a class="text-bold link-gray-dark lh-default v-align-middle" rel="contributor" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=4196" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/hadley">hadley</a>
-            <span class="lh-default v-align-middle">
-              <a data-pjax="true" title="Update logos" class="link-gray" href="/rstudio/hex-stickers/commit/5c96577572b8fe3d23f9e58888abe1f32d148003">Update logos</a>
-            </span>
-        </span>
-        <span class="d-inline-block flex-shrink-0 v-align-bottom f6">
-          <a class="pr-2 text-mono link-gray" href="/rstudio/hex-stickers/commit/5c96577572b8fe3d23f9e58888abe1f32d148003" data-pjax>5c96577</a>
-          <relative-time datetime="2019-01-11T20:03:06Z">Jan 11, 2019</relative-time>
-        </span>
-      </div>
-
-    <div class="Box-body d-flex flex-items-center flex-auto f6 border-bottom-0" >
-      <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
-        <summary class="btn-link" aria-haspopup="dialog">
-          <span><strong>2</strong> contributors</span>
-        </summary>
-        <details-dialog
-          class="Box Box--overlay d-flex flex-column anim-fade-in fast"
-          aria-label="Users who have contributed to this file"
-          >
-          <div class="Box-header">
-            <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
-              <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-            </button>
-            <h3 class="Box-title">
-              Users who have contributed to this file
-            </h3>
-          </div>
-              <ul class="list-style-none overflow-auto">
-    <li class="Box-row">
-      <a class="link-gray-dark no-underline" href="/hadley">
-        <img class="avatar mr-1" alt="" src="https://avatars3.githubusercontent.com/u/4196?s=40&amp;v=4" width="20" height="20" />
-        hadley
-</a>    </li>
-    <li class="Box-row">
-      <a class="link-gray-dark no-underline" href="/carneybill">
-        <img class="avatar mr-1" alt="" src="https://avatars0.githubusercontent.com/u/6744334?s=40&amp;v=4" width="20" height="20" />
-        carneybill
-</a>    </li>
-</ul>
-
-        </details-dialog>
-      </details>
-        <span class="">
-    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=4196" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/rstudio/hex-stickers/commits/master/SVG/dplyr.svg?author=hadley">
-      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/4196?s=40&amp;v=4" width="20" height="20" alt="@hadley" /> 
-</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=6744334" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/rstudio/hex-stickers/commits/master/SVG/dplyr.svg?author=carneybill">
-      <img class="avatar mr-1" src="https://avatars0.githubusercontent.com/u/6744334?s=40&amp;v=4" width="20" height="20" alt="@carneybill" /> 
-</a>
-</span>
-
-    </div>
-  </div>
-
-
-
-
-
-    <div class="Box mt-3 position-relative">
-      
-<div class="Box-header py-2 d-flex flex-justify-between flex-items-center">
-
-  <div class="text-mono f6">
-      315 lines (314 sloc)
-      <span class="file-info-divider"></span>
-    32.6 KB
-  </div>
-
-  <div class="d-flex">
-      <div class="BtnGroup">
-        <a class="btn btn-sm BtnGroup-item tooltipped tooltipped tooltipped-n source "
-          href="/rstudio/hex-stickers/blob/master/SVG/dplyr.svg?short_path=f642950" aria-label="Display the source blob">
-          <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
-        </a>
-        <a class="btn btn-sm BtnGroup-item tooltipped tooltipped-n rendered selected"
-          href="/rstudio/hex-stickers/blob/master/SVG/dplyr.svg" aria-label="Display the rendered blob">
-          <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
-        </a>
-      </div>
-
-    <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/rstudio/hex-stickers/raw/master/SVG/dplyr.svg">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/rstudio/hex-stickers/blame/master/SVG/dplyr.svg">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/rstudio/hex-stickers/commits/master/SVG/dplyr.svg">History</a>
-    </div>
-
-
-    <div>
-
-          <button type="button" class="btn-octicon disabled tooltipped tooltipped-nw"
-            aria-label="You must be signed in to make or propose changes">
-            <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
-          </button>
-          <button type="button" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
-            aria-label="You must be signed in to make or propose changes">
-            <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
-          </button>
-    </div>
-  </div>
-</div>
-
-      
-
-  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-svg ">
-      
-  <div class="render-wrapper ">
-    <div class="render-container is-render-pending js-render-target  "
-      data-identity="ac92b0db-adf4-44a8-af5f-f2cae2b48cce"
-      data-host="https://render.githubusercontent.com"
-      data-type="svg">
-      <img class="octospinner mx-auto" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="64" height="64" />
-      <div class="render-viewer-error">Sorry, something went wrong. <a href="https://github.com/rstudio/hex-stickers/blob/master/SVG/dplyr.svg">Reload?</a></div>
-      <div class="render-viewer-fatal">Sorry, we cannot display this file.</div>
-      <div class="render-viewer-invalid">Sorry, this file is invalid so it cannot be displayed.</div>
-      <iframe class="render-viewer " src="https://render.githubusercontent.com/view/svg?commit=5c96577572b8fe3d23f9e58888abe1f32d148003&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f7273747564696f2f6865782d737469636b6572732f356339363537373537326238666533643233663965353838383861626531663332643134383030332f5356472f64706c79722e737667&amp;nwo=rstudio%2Fhex-stickers&amp;path=SVG%2Fdplyr.svg&amp;repository_id=127026863&amp;repository_type=Repository#ac92b0db-adf4-44a8-af5f-f2cae2b48cce" sandbox="allow-scripts allow-same-origin allow-top-navigation " title="File display">
-          Viewer requires iframe.
-      </iframe>
-    </div>
-  </div>
-
-  </div>
-
-    </div>
-
-  
-
-  <details class="details-reset details-overlay details-overlay-dark">
-    <summary data-hotkey="l" aria-label="Jump to line"></summary>
-    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
-        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
-        <button type="submit" class="btn" data-close-dialog>Go</button>
-</form>    </details-dialog>
-  </details>
-
-
-
-  </div>
-  <div class="modal-backdrop js-touch-events"></div>
-</div>
-
-    </main>
-  </div>
-  
-
-  </div>
-
-        
-<div class="footer container-lg width-full px-3" role="contentinfo">
-  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-    <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2019 <span title="0.16779s from unicorn-58d78b9656-b72k4">GitHub</span>, Inc.</li>
-        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
-        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
-        <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
-        <li class="mr-3"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
-        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
-    </ul>
-
-    <a aria-label="Homepage" title="GitHub" class="footer-octicon mx-lg-4" href="https://github.com">
-      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-</a>
-   <ul class="list-style-none d-flex flex-wrap ">
-        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
-        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
-      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
-      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
-        <li class="mr-3"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
-        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
-
-    </ul>
-  </div>
-  <div class="d-flex flex-justify-center pb-6">
-    <span class="f6 text-gray-light"></span>
-  </div>
-</div>
-
-
-
-  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
-    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
-    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
-      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-    </button>
-    You can’t perform that action at this time.
-  </div>
-
-
-    <script crossorigin="anonymous" integrity="sha512-5g98V2j8YTLsw7llCJHOsXoeKDJzBaS1EPqZe/YOBBiPXDE/+5S1WkRoX6AVs/hXTzyJGB3x95OKNDat4vpk0A==" type="application/javascript" src="https://github.githubassets.com/assets/compat-bootstrap-3ee7f90c.js"></script>
-    <script crossorigin="anonymous" integrity="sha512-YpApTwpG5bZlXz9VWRHpdS4eus2IDzbWC9NQ7URGWAXHzBQzWW22DkzG4p//tHAEHt1XPj3UvEMz2Aep8cpQLw==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-9658b35e.js"></script>
-    
-    <script crossorigin="anonymous" async="async" integrity="sha512-dFbjVhUDfvH7EZo6tsy9OT1/taC5lkfI7Z61VicmpleBTjQlxWnCwNonEsl7miG6YYKme4JN2nag0GDxCrBiHg==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-5167d3d0.js"></script>
-    
-    
-    
-  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner" hidden
-    >
-    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
-    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
-    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
-  </div>
-  <template id="site-details-dialog">
-  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark" open>
-    <summary aria-haspopup="dialog" aria-label="Close dialog"></summary>
-    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast">
-      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
-        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-      </button>
-      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
-    </details-dialog>
-  </details>
-</template>
-
-  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
-  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
-  </div>
-</div>
-
-  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
-
-  </body>
-</html>
-
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 735 852" style="enable-background:new 0 0 735 852;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ED7D15;}
+	.st1{opacity:0.25;fill:url(#SVGID_1_);enable-background:new    ;}
+	.st2{fill:#AC5D12;}
+	.st3{fill:#E6B35A;}
+	.st4{opacity:0.94;}
+	.st5{fill:#FFFFFF;}
+</style>
+<title>dplyr</title>
+<path class="st0" d="M709,233.1L366.9,22.5L25.9,233.1v394.4l341.5,197.2L709,627.5V233.1z"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="366.1355" y1="974.39" x2="367.4355" y2="510.87" gradientTransform="matrix(1 0 0 -1 0 852)">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.83"/>
+	<stop  offset="0.56" style="stop-color:#FFFFFF;stop-opacity:0.37"/>
+	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+</linearGradient>
+<path class="st1" d="M366.9,340.4c128.2,0,238.6-57,287.8-138.8L367.5,35.8l0,0L79.4,202.2C128.8,283.7,238.9,340.4,366.9,340.4z"/>
+<path class="st2" d="M734.9,637.4V213.1l-29.3-16.9L427.8,35.8L367.5,1l-60.3,34.8L29.4,196.2L0.1,213.1v424.2l29.3,16.9
+	l281.3,162.4l56.9,32.8l56.9-32.8l281.3-162.4L734.9,637.4z M29.4,621.5V231l50-28.9L367.5,35.8l0,0l287.2,165.8l50.9,29.4v390.5
+	L367.5,816.7L29.4,621.5z"/>
+<path class="st3" d="M367,633.9c0.3-0.3,0.6-0.6,0.9-0.9h-0.3C367.5,633.3,367.3,633.6,367,633.9z"/>
+<g class="st4">
+	<path class="st5" d="M282.3,474v99.2c0,7.3,0.2,15.6,0.6,21.2h-12.6l-0.6-14.2h-0.3c-4.3,9.2-13.8,16.1-26.4,16.1
+		c-18.7,0-33.1-16.8-33.1-41.7c-0.2-27.3,15.8-44.1,34.7-44.1c11.8,0,19.8,5.9,23.4,12.6h0.3v-49H282.3z M268.2,545.7
+		c0-2.1-0.2-4.2-0.6-6.3c-2.1-9.5-9.8-17.3-20.3-17.3c-14.6,0-23.2,13.6-23.2,31.7c0,16.6,7.7,30.4,22.9,30.4
+		c9.4,0,18.1-6.6,20.6-17.8c0.5-2.1,0.7-4.3,0.6-6.4V545.7z"/>
+	<path class="st5" d="M302.5,539.1c0-10.5-0.3-19-0.6-26.8h12.6l0.6,14.1h0.3c5.8-10,14.9-16,27.5-16c18.7,0,32.8,16.8,32.8,41.7
+		c0,29.5-17,44.1-35.2,44.1c-10.2,0-19.2-4.8-23.8-12.9h-0.3V628h-13.9V539.1z M316.4,561c0,2.1,0.3,4.1,0.6,6.1
+		c2.6,10.3,11,17.5,21.1,17.5c14.9,0,23.5-12.9,23.5-31.7c0-16.5-8.2-30.5-23-30.5c-9.6,0-18.6,7.3-21.3,18.5c-0.6,2-0.9,4-1,6.1
+		V561z"/>
+	<path class="st5" d="M390.3,474h14.1v120.4h-14.1V474z"/>
+	<path class="st5" d="M430,512.3l17,48.5c1.8,5.4,3.7,11.9,5,16.8h0.3c1.4-4.9,3-11.2,5-17.1l15.4-48.2h14.9l-21.3,58.5
+		c-10.1,28.2-17,42.6-26.6,51.4c-6.9,6.4-13.8,9-17.3,9.7l-3.5-12.5c4.5-1.6,8.7-4.1,12.3-7.3c5.2-4.6,9.2-10.2,11.8-16.6
+		c0.6-1.1,1-2.3,1.1-3.6c-0.1-1.3-0.5-2.7-1-3.9l-28.6-75.6L430,512.3z"/>
+	<path class="st5" d="M497,538c0-9.7-0.2-18-0.6-25.6h12.3l0.5,16.1h0.6c3.5-11,12-18,21.4-18c1.4,0,2.7,0.2,4,0.5v14.1
+		c-1.6-0.4-3.2-0.5-4.8-0.5c-9.9,0-17,8-18.9,19.2c-0.4,2.3-0.6,4.7-0.6,7v43.8H497V538z"/>
+</g>
+<path class="st5" d="M365.5,797.3l4.5,4.5c1,1,1.9,1.9,2.7,2.9h0.1c-0.4-1.2-0.7-2.5-1-3.8l-1.4-6.3l1.6-0.9l4.7,4.3
+	c1.1,1,2.1,2,2.9,2.9h0.1c-0.5-1.3-0.9-2.5-1.2-3.8l-1.6-6.1l1.9-1.1l2.7,12.3l-1.7,1l-4.5-4.1c-1-0.9-2-1.9-2.9-2.9h0
+	c0.4,1.3,0.8,2.6,1.1,4l1.2,6l-1.7,1l-9.2-8.6L365.5,797.3z"/>
+<path class="st5" d="M381.7,787.9l4.5,4.5c1,1,1.9,1.9,2.7,2.9h0.1c-0.4-1.2-0.7-2.5-1-3.8l-1.4-6.3l1.6-0.9l4.7,4.3
+	c1.1,1,2.1,2,2.9,2.9h0.1c-0.5-1.3-0.8-2.6-1.2-3.9l-1.6-6.1l1.9-1.1l2.7,12.4l-1.7,1l-4.5-4.1c-1-0.9-2-1.9-2.9-2.9h0
+	c0.4,1.3,0.8,2.6,1.1,4l1.2,6l-1.7,1l-9.2-8.7L381.7,787.9z"/>
+<path class="st5" d="M397.9,778.5l4.5,4.5c1,1,1.9,1.9,2.7,2.9h0.1c-0.4-1.2-0.7-2.5-1-3.8l-1.4-6.3l1.6-0.9l4.7,4.3
+	c1.1,1,2.1,2,2.9,2.9h0.1c-0.5-1.3-0.8-2.6-1.2-3.9l-1.6-6.1l1.9-1.1l2.7,12.4l-1.7,1l-4.5-4.1c-1-0.9-2-1.9-2.9-2.9l0,0
+	c0.4,1.3,0.8,2.6,1.1,4l1.2,6l-1.7,1l-9.2-8.6L397.9,778.5z"/>
+<path class="st5" d="M417.1,779.7c-0.5-0.7-0.3-1.6,0.4-2.1c0,0,0.1,0,0.1-0.1c0.8-0.4,1.7-0.1,2.1,0.7c0.4,0.7,0.1,1.6-0.6,2.1
+	C418.5,780.8,417.6,780.5,417.1,779.7C417.2,779.8,417.1,779.8,417.1,779.7z"/>
+<path class="st5" d="M418.5,770.8c-0.7-1.2-1.4-2.3-2-3.2l1.7-1l1.3,2h0.1c-0.4-1.5,0.2-3.2,1.6-4c0.2-0.1,0.4-0.2,0.6-0.2l1,1.8
+	c-0.2,0.1-0.5,0.2-0.7,0.3c-1.3,0.8-1.8,2.5-1.1,3.9c0.1,0.3,0.3,0.6,0.4,0.9l3.2,5.6l-1.8,1.1L418.5,770.8z"/>
+<path class="st5" d="M428.4,772.1c1,0,2-0.2,3-0.7c1.4-0.8,1.6-1.9,1.1-2.7s-1.4-1.1-3.1-0.8c-2.3,0.4-3.8-0.1-4.5-1.3
+	c-1-1.7-0.4-3.8,1.8-5.2c0.9-0.5,1.9-0.8,3-0.8l0.3,1.7c-0.9,0-1.7,0.2-2.5,0.6c-0.9,0.4-1.3,1.4-1,2.3c0,0,0,0.1,0.1,0.1
+	c0.5,0.9,1.4,0.9,3,0.6c2.2-0.4,3.7,0,4.6,1.5c1.1,1.8,0.4,4-2.1,5.4c-1,0.6-2.2,1-3.4,1L428.4,772.1z"/>
+<path class="st5" d="M432.8,754.1l1.8,3l2.7-1.6l0.9,1.5l-2.7,1.6l3.3,5.6c0.8,1.3,1.5,1.8,2.6,1.2c0.4-0.2,0.7-0.5,1-0.8l0.9,1.4
+	c-0.4,0.5-1,0.9-1.5,1.2c-0.7,0.5-1.7,0.6-2.5,0.4c-1-0.4-1.9-1.3-2.3-2.3l-3.3-5.7l-1.6,0.9l-0.8-1.5l1.6-0.9l-1.5-2.5L432.8,754.1
+	z"/>
+<path class="st5" d="M452.6,756.8c0.6,1.1,1.2,2,1.7,2.8l-1.7,1l-1.1-1.6l0,0c0,1.7-0.9,3.2-2.3,4c-1.6,1-4.1,1.2-6.3-2.5l-3.6-6.1
+	l1.9-1.1l3.3,5.8c1.2,2,2.5,3,4.3,2c1.1-0.7,1.7-1.9,1.5-3.2c-0.1-0.4-0.2-0.7-0.4-1.1l-3.7-6.4l1.9-1.1L452.6,756.8z"/>
+<path class="st5" d="M457.5,737.2l7.4,12.6c0.5,0.9,1.2,2,1.7,2.7l-1.7,1l-1.1-1.8l0,0c0.1,1.7-0.9,3.3-2.4,4.1
+	c-2.5,1.5-5.7,0.5-7.6-2.7c-2-3.5-1.1-6.9,1.4-8.3c1.2-0.8,2.8-0.9,4.1-0.2h0l-3.6-6.2L457.5,737.2z M460.9,747.5
+	c-0.2-0.3-0.3-0.5-0.5-0.8c-1-1.1-2.7-1.4-4-0.6c-2,1.1-2.1,3.5-0.8,5.9c1.2,2.1,3.3,3.3,5.3,2.1c1.3-0.8,2-2.4,1.5-3.9
+	c-0.1-0.3-0.2-0.6-0.4-0.9L460.9,747.5z"/>
+<path class="st5" d="M463.9,736.1c0.4,0.7,0.2,1.5-0.5,1.9s-1.5,0.2-1.9-0.5c-0.4-0.6-0.2-1.5,0.4-1.8c0,0,0,0,0.1,0
+	C462.6,735.2,463.5,735.4,463.9,736.1C463.9,736,463.9,736,463.9,736.1z M469.6,750.7l-6.1-10.5l1.9-1.1l6.1,10.5L469.6,750.7z"/>
+<path class="st5" d="M481,736.9c2.2,3.9,0.5,7.1-2,8.6c-2.8,1.6-6.2,0.8-8.1-2.5c-2-3.5-0.9-6.9,2-8.6S479.1,733.8,481,736.9z
+	 M472.8,741.9c1.3,2.3,3.7,3.2,5.5,2.2s2.2-3.6,0.8-5.9c-1-1.8-3.2-3.5-5.5-2.2S471.6,739.9,472.8,741.9L472.8,741.9z"/>
+<path class="st5" d="M484.9,740.3c-0.4-0.7-0.1-1.6,0.7-2c0.7-0.4,1.6-0.1,2,0.7c0.4,0.7,0.1,1.6-0.6,2c-0.7,0.4-1.6,0.2-2-0.5
+	C484.9,740.4,484.9,740.3,484.9,740.3z"/>
+<path class="st5" d="M497.7,733.8c-0.7,1-1.6,1.8-2.6,2.3c-3.1,1.8-6.5,0.9-8.3-2.3c-1.8-2.8-1-6.6,1.8-8.5c0.2-0.1,0.4-0.2,0.6-0.3
+	c0.9-0.5,1.9-0.9,2.9-1l0.4,1.7c-0.9,0-1.7,0.3-2.5,0.8c-2.4,1.4-2.7,3.9-1.4,6.1c1.4,2.4,3.8,3,5.9,1.8c0.8-0.5,1.5-1.1,2-1.9
+	L497.7,733.8z"/>
+<path class="st5" d="M506.4,722.2c2.3,3.9,0.6,7.1-2,8.6c-2.8,1.6-6.2,0.8-8.1-2.5c-2-3.5-0.9-6.9,2-8.6S504.5,719,506.4,722.2z
+	 M498.1,727.1c1.3,2.3,3.7,3.2,5.5,2.2s2.2-3.6,0.8-5.9c-1-1.8-3.2-3.5-5.5-2.2S497,725.1,498.1,727.1z"/>
+<path class="st5" d="M507.4,718.5c-0.6-1.1-1.2-2-1.7-2.8l1.7-1l1.1,1.6h0.1c-0.1-1.6,0.8-3.1,2.2-3.8c1.3-0.8,3-0.6,4.2,0.4h0
+	c0-0.7,0.1-1.4,0.4-2c0.4-0.9,1-1.6,1.9-2.1c1.4-0.8,4-1.1,6.1,2.5l3.6,6.2l-1.8,1.1l-3.5-5.9c-1.2-2-2.6-2.8-4.1-1.9
+	c-1,0.6-1.5,1.8-1.2,3c0.1,0.4,0.2,0.7,0.4,1l3.8,6.5l-1.9,1.1l-3.7-6.3c-1-1.7-2.4-2.5-3.9-1.6c-1.3,1-1.7,2.8-0.9,4.3l3.7,6.3
+	l-1.9,1.1L507.4,718.5z"/>
+<path class="st5" d="M582.7,343.2c-3.8-2-8.1-4.2-11.8-6.2c-20.9-10.7-41.7-21.6-62.7-32.1c-17.3-8.7-35.3-15.5-54.5-19
+	c-13.3-2.4-26.8-3-40.3-3.8c-11.2-0.6-22.5-1.6-33.7-2.2c-8.6-0.5-14.2-4.9-17.9-12.4c-1.6-3.3-3.3-6.7-6.4-9.1
+	c-0.4-0.5-0.8-1-0.9-1.6c-1-2.3-3.4-3.7-5.9-3.3c-4.8,0.3-9.6,0.9-14.3,1.9c-7.3,1.7-14.5,4.1-21.8,6.1c-1.9,0.5-2.7,1.2-2.5,3.4
+	c0.2,2.2,0.2,4.4,0.1,6.6l-19.5-6.3c-1.6-0.6-3.4,0-4.2,1.4l-12-1.2c0-2-0.1-4.1-0.1-6.4c-0.5-0.2-1-0.3-1.5-0.4
+	c-11.4-1.4-21.7-5.9-32.1-10.4c-1.3-0.5-2.6-0.8-4-0.8c-20.4,0.1-40.7,0.3-61.1,0.5c-3.1,0-6.2,0.5-9.3,0.7c-0.5,0-1.1-0.1-1.6-0.2
+	l-0.4,0.1c-2.9,1.5-4.1,3.8-4.5,7c-0.4,2-1,3.9-1.7,5.8l0.1,0.4c0.6,0.8,1.3,1.6,2,2.3c2,1.6,4.1,3.2,6.2,4.7
+	c1.1,0.8,2.1,1.6,3.3,2.3c11.3,6.9,20.8,16.1,30.9,24.6c5.6,4.7,11.1,9.6,16.7,14.3c0.6,0.5,1.2,0.9,1.9,1.2
+	c10.7,3.7,21.4,7.4,32.1,11c0.6,0.1,1.2,0,1.8-0.4c1.2-1,2.3-2.2,3.5-3.3c5,2.8,10.6,4.4,16.4,4.4c-0.5,3-1,5.8-1.6,8.7l14,5.2
+	c-1.7,1.9-3.2,3.6-4.8,5.3c-0.7,0.5-0.9,1.6-0.4,2.3c0,0,0,0,0,0c5.5,9.3,11,18.5,18.1,26.7c1.8,2,3.9,3.8,6,5.4
+	c1.1,0.9,5.4,0.6,7.1-0.4c0.7,0.1,1.3,0.1,2,0c3-0.6,5.9-1.4,8.7-2.5c8.2-3.6,15.4-2,22.2,3.3c8.6,6.7,17.3,13.3,25.8,20
+	c10.1,7.9,20,16,30.9,22.8c15,9.1,31.2,16.1,48.1,20.8c12.7,3.6,25.4,6.9,38.1,10.1c0.5-0.2,1-0.1,1.4,0.1c1.7,0.7,3.6,0.4,5.4,0.7
+	c1,0.2,1.9,0.6,2.8,1.2c1.5,0.3,3,0.5,4.5,1c0.8,0.2,1.5,0.5,2.3,0.8c3.8,0.7,7.5,1.8,11.1,3.1l13.4,3.4l0,0
+	c3.1,0.9,6.3,1.4,9.2,2.7l0.1,0.1c0.2-0.5,0.5-1,0.7-1.5c0.4-1.3,0.7-2.6,0.9-3.9c0.1-0.4,0.4-0.8,0.8-1.1c0.2-1.7,0.3-3.4,0.4-5.2
+	c0-2.3,1.8-4.6,2-6.9c0.3-3.6-1.9-6.3-4.4-8.7c-4.6-4.5-10.3-7.1-16.4-9c-12.7-3.9-25.4-7.6-38.1-11.3c-14.3-4.2-28.8-8.1-42-15.1
+	c-10.9-5.8-21.7-11.9-32.5-18c-13.1-7.5-25.4-16.2-36.9-26c-4.7-4-10-7.2-15-10.7c-3.2-2.2-6.3-4.5-7.5-8.5
+	c-0.9-2.8-3.2-4.5-5.6-5.9c-7.3-4-14.7-8.1-22.1-12c-4.4-2.3-9.1-4.3-13.6-6.5c-0.7-0.5-1.8-0.4-2.3,0.4c0,0-0.1,0.1-0.1,0.1
+	c-3.1,3.6-3.1,3.5-7.5,1.7l-3.6-1.5c4.8-4.2,8.1-9.9,9.2-16.1c2.3-0.3,4.1,2.2,6.5,0.9c0,0.2,0.1,0.5,0.1,0.8c0.1,4,0.1,4,4,5.1
+	c9.9,2.7,19.8,5.4,29.8,7.9c2.9,0.7,5.8,1.2,8.8,1.3c2,0.1,4-0.2,5.9-1c2.8-1.3,5.9-1.8,9-1.5c6.7,0.8,13.5,2.1,20.2,2.1
+	c28.4,0.2,55.8,6.7,83.2,13.3c11.8,2.9,22.8,8.1,33.8,13.2c13.2,6.1,26.3,12.4,39.5,18.5c3.5,1.5,7.1,2.8,10.7,3.9
+	c1.2,0.4,2.5,0.7,3.8,0.9c0.5-0.3,1.2-0.3,1.7,0l0.4,0.2c0.4,0,0.7,0,1.1,0.1l2.1,0.1h0.2l1.3-0.1c1.1-0.3,2.2-0.6,3.3-1
+	c1.4-0.5,2.6-1.3,3.6-2.2c0.8-0.6,2.5-1.1,2.9-2c0.1-0.2,0.3-0.4,0.4-0.6c0.2-1.1,0.5-2.3,0.8-3.4c0.2-0.6,0.6-1.1,1.1-1.4
+	c1.8-1.6,3.8-6.4,4.4-9h-0.1L582.7,343.2z M217.7,277c-1.1,0.4-2.4,0.6-3.6,0.5c-1.4-0.1-2.4-0.5-3.7,0.2c-0.9,0.6-2.1,0.3-2.7-0.6
+	c-0.1-0.1-0.1-0.3-0.2-0.4c-0.1-0.2-0.1-0.3-0.2-0.4H207c-0.7,0.1-1.5,0.1-2.2-0.1c-0.8-0.2-1.5-0.5-2.1-1c-0.5-0.4-0.6-0.7-1-0.7
+	c-0.9,0.1-1.5,0.8-2.5,0.7c-0.8,0-1.5-0.4-2.1-0.9c-1-1-1.7-2.1-3.3-1.9c-0.9,0-1.6-0.5-1.9-1.3c-0.5-2.6-3.1-3.9-3.6-6.6
+	c-0.3-1,0.3-2,1.2-2.4c0.9-0.3,2-0.3,2.9,0.1c0.8,0.3,0,0.6,1,0.1c0.5-0.3,1-0.5,1.5-0.6c1-0.2,2.1,0,3,0.5c0.6,0.3,1.5,1.2,2.1,0.9
+	c0.5-0.2,1-0.1,1.5,0.1c0.7-0.1,1.4,0.2,1.7,0.9c0.8,1.4,2,2.5,3.6,1.7c0.9-0.6,2.1-0.3,2.7,0.6c0.1,0.1,0.1,0.3,0.2,0.4
+	c0.6,1.6,3.3,1.7,4.7,2.1c1.9,0.5,3.8,1.2,5,2.9c1.1,1.4,0.9,3.5-0.6,4.6C218.4,276.7,218.1,276.9,217.7,277z"/>
+<path d="M243.6,305.6c0.1-4.8,0.1-9.5,0.2-14.3L242,291c-0.1,4.9-0.1,9.6-0.2,14.5L243.6,305.6z M238.1,292c0,4,0.2,7.9,0.3,11.9
+	c0,0,0.1,0.1,0.2,0.3l1.4-0.2c0-4.4-0.1-8.7-0.1-13l-0.9-0.2C238.7,291.2,238.1,291.6,238.1,292z M236,289.3l-1.8,0.3
+	c0.2,4.1,0.5,8,0.7,12l1.8,0.2C236.5,297.6,236.3,293.6,236,289.3z M231.9,299.5c0.1-4,0.1-7.8,0.2-11.7l-0.7-0.2
+	c-0.5,0.8-0.9,1.7-1.1,2.6c-0.2,3-0.1,5.9-0.1,9L231.9,299.5z M226.2,289.2c-0.1,2.9-0.3,5.8-0.4,8.9h1.8c0.1-3.4,0.2-6.7,0.3-10
+	C226.8,287.6,226.3,288,226.2,289.2L226.2,289.2z M220.9,294.5c0.3-3.3,0.5-6.4,0.7-9.5l-0.7-0.1c-2.5,2.5-0.8,5.9-1.9,8.9
+	L220.9,294.5z M223.1,287.7c-0.4,2.5-0.6,5-0.9,7.6l1.7,0.2c0.4-3,0.8-5.8,1.1-8.6l-0.8-0.3C223.8,287,223.1,287.3,223.1,287.7
+	L223.1,287.7z M214.4,283.4l-0.8-0.4c-0.4,0.4-1.1,0.8-1.2,1.3c-0.4,1.7-0.5,3.5-0.9,5.2c-0.3,1.3,0.1,1.8,1.7,1.5L214.4,283.4z
+	 M215.2,291.4c-0.1,0.3,0.7,0.8,1.1,1.1l0.5-0.1c0.3-2.8,0.5-5.7,0.8-8.5l-0.6-0.1C214.6,285.9,215.7,288.9,215.2,291.4L215.2,291.4
+	z M209.1,289.2c0.3-2.3,0.6-4.5,0.9-6.6c-2.4-0.3-1.9,1.3-2,2.3s-0.3,2.2-0.5,3.5L209.1,289.2z M186.3,268.4l-1.8-0.1
+	c-0.1,1.8-0.2,3.5-0.1,5.2c0,0.5,0.8,0.9,1.2,1.3l0.5-0.4L186.3,268.4z M183.6,267l-1.8,0.4c0,1.3-0.1,2.7-0.3,4
+	c-0.2,1.3,0.3,1.6,1.8,1.4L183.6,267z M180.2,270.1c0.2-1.7,0.4-3.4,0.6-5.1c-2,0.1-2.3,0.6-2.2,5L180.2,270.1z M203.7,285.8
+	l2.1,0.9c0.2-1.9,0.4-3.7,0.7-5.9C203.4,282,205.4,284.6,203.7,285.8L203.7,285.8z M348,303.2c-0.4,1.1-0.9,2-0.7,2.1
+	c1.1,0.9,1.1,3.1,3.9,2.9L348,303.2z M347.2,308.6l0.8-0.6l-2.6-4.3l-1.6,1.5L347.2,308.6z M176.8,268.5c0.4-1.9,0.7-3.4,1-5.1
+	c-2.6,0.5-1.9,2.6-2.8,3.9L176.8,268.5z M350.8,304.8c1.6,0.5,1,3.5,3.8,2.9C353.2,304,352.8,303.6,350.8,304.8L350.8,304.8z
+	 M173.6,267c1.4-2.3,1.4-3.6-0.2-5.2C173.6,263.8,171.2,265.4,173.6,267z M169,264.4c2-0.4,2.1-1.7,2.2-2.8c0.1-0.5-0.4-1-0.7-1.6
+	l-0.8,0.2C169.5,261.5,169.3,262.8,169,264.4z M202.8,284.4c0.2-1.4,0.4-2.6,0.6-4.3C200.9,281.6,200.8,283.2,202.8,284.4
+	L202.8,284.4z M166.8,260.4c0.1-0.5-0.4-1.2-0.7-1.8l-0.6,0.1l-0.8,2.6l0.5,0.4C165.9,261.4,166.7,261,166.8,260.4L166.8,260.4z
+	 M197.7,282.2c2.2,0.1,1.7-1.4,1.7-2.7C197.5,279.6,197.6,280.8,197.7,282.2L197.7,282.2z M342.7,304.9c-0.5,0.8-1.2,1.4-1.1,1.7
+	c0.3,0.6,0.9,0.9,1.5,1.4l0.5-0.5L342.7,304.9z"/>
+<path d="M568.7,354.1c-4.7,0-9.3-1-13.5-3c-11.3-5.1-22.6-10.3-33.8-15.7c-13.5-6.4-27-12.7-41-17.8c-12.6-4.5-25.6-6.8-38.8-8
+	c-26-2.5-52-4.6-78-7c-3.9-0.3-7.7-0.6-11.5-1.1c-8.9-1.3-12.2-4.8-12.9-13.8c-0.6-5.7-0.1-11.4,1.5-16.9c1.7-5.4,5.2-9,11.2-10.1
+	c-0.1-0.5-0.1-1-0.2-1.7c-5.1,0.6-8.9,3.1-11,7.6c-1.4,2.9-2.3,5.9-2.8,9c-0.9,5.2-0.9,10.5,0,15.7c0.9,5.3,3.7,9,8.8,10.7
+	c2.7,0.8,5.4,1.5,8.1,2c1.4,2.9,2.1,3.4,3.8,2.7l-1.6-2.7c2.3,0.1,2.9,2.2,4.4,3.3l1.4-0.8l-1.4-2c2.2-0.9,3.3,0.8,4.3,2.1
+	c0.8,1,1.3,1,2.1,0.1l-1-1.9c3.2-0.1,3.3,4.6,7,4l-2.6-3.5l0.3-0.3l5.4,5.2c0.8-2.5-1.1-3.2-1.8-4.5c1.3-0.3,1.3-0.3,4.2,3.8
+	l1.4-0.8c-0.3-0.5-0.5-1-0.7-1.4s-0.6-0.8-0.9-1.3c1.5-0.4,1.5-0.4,2.9,1.3c0.8,0.9,1.7,1.9,2.6,2.9c0.5-0.4,0.8-0.8,1.2-1.1
+	l-2.4-2.9c1.7,0.1,3-0.3,4,1.3c1,1.3,2.2,2.5,3.4,3.6l0.9-1.5l-2.8-3.1c2.9,0,3.6,3.7,6.8,3.3L394,307c1.6-0.8,2.1,0.8,3,1.5
+	s1.9,1.7,2.9,2.6l1.3-1.1l-2.5-2.6c2.8-0.9,3.9,1.3,5.4,2.6c0.6,0.4,1.3,0.8,2,1.1l0.4-0.5l-1.7-2.7c3.2-0.2,2-0.4,5.6,3.6
+	c0.2,0,0.5-0.1,0.7-0.1c0.3-0.1,0.6-0.2,1-0.5l-1.9-2.7l2.5,0.2l3.3,4.3l1.4-1.2l-2.2-2.8c1.4-0.2,2.4,0,3.1,1.2
+	c0.6,1,1.3,1.8,2.2,2.6c0.5,0.4,1.1,0.6,1.7,0.8c0-0.7-0.1-1.3-0.3-1.9c-0.5-0.8-1.1-1.6-1.8-2.3c1.5,0,2.5-0.2,3.3,1.4
+	c0.5,1,1,3.1,3.4,2.1l-1.7-3l3.3,0.2c-0.2,2.1,1.4,3.8,3.2,3.2c-0.3-0.5-0.5-1-0.8-1.5s-0.5-0.9-0.9-1.5c3.3,0.1,3.5,2.9,4.9,4.8
+	l1.6-0.5l-1.7-3.6c2.5-0.6,3.1,1.3,3.9,2.8c0.4,0.6,0.9,1.2,1.5,1.6l0.6-0.4l-1.1-3.5c1.3-0.5,2.8,0.2,3.3,1.5c0,0,0,0,0,0
+	c0.4,1,0.9,2,1.4,2.9c0.5,0.7,1.1,1.4,1.7,2l0.7-0.4c-0.7-1.8-1.4-3.7-2.1-5.6l2.8,0.3c-0.1,2,1.8,5.3,3.4,5.4l-1.6-5.1l1.6,0.2
+	c0.8,2.1,1.5,3.9,2.3,5.7c0.4,0.1,0.8,0.1,1.1-0.1c0.3-0.4,0.3-0.8,0.2-1.3c-0.5-1.2-1.1-2.4-1.7-3.8c1.2-0.1,2-0.3,2.4,1.1
+	c0.4,1.3,1,2.6,1.7,3.7c0.3,0.5,0.9,0.7,1.3,1.1l0.6-0.3c-0.4-1.6-0.9-3.2-1.4-5l2,0.2l2.1,6.4l0.9-0.2c-0.2-1.9-0.5-3.8-0.7-5.8
+	l2.6,0.5c0.6,2.4,0.2,5.1,2.3,6.8l0.9-0.3l-1.6-6l1.9,0.3c0.8,2.3,1.4,4.4,2.1,6.4c0.1,0.3,0.9,0.4,1.4,0.6l0.5-0.3
+	c-0.5-1.9-1-3.8-1.6-6l2.2,0.6c0.5,2.4,1,4.6,1.6,7h1.8l-1.4-6.2c2.5,0.2,3.3,1.3,3.5,4.9c0.1,1,0,1.9,1.8,2.1
+	c-0.1-1.8-0.3-3.6-0.5-5.9c0.8,0.7,1.6,1.1,1.9,1.8c0.6,1.3,0.8,2.8,1.3,4.2c0.2,0.7,0.6,1.4,1.1,2.4c1.3-2.6,0.2-4.5-0.3-6.5
+	c2.8,0.5,2.8,0.5,3.6,7h1.8c-0.2-1.8-0.4-3.5-0.6-5.2c1.6,0.3,2.8,3.7,2.9,8.8c-2-0.8-4-1.6-6-2.4c-10.4-4.2-21.3-6.3-32.1-8.7
+	c-15.9-3.5-31.9-6.8-48.1-8c-8-0.6-15.9-0.8-23.9-1.4c-4.4-0.3-8.8-1.1-13.2-1.6c-3-0.4-6.1,0.3-8.8,1.8c-2,1.1-4.1,1-6.3,0.8
+	c-9.8-1.2-19.2-4.1-28.7-6.7c-3.2-0.9-6.3-1.9-9.5-2.7c-1-0.1-1.8-1-1.7-2c0,0,0-0.1,0-0.1c0-11.6-0.1-23.3-0.3-34.9
+	c0-1.2,0.3-1.9,1.5-2.1s2.4-0.8,3.6-1.1c0,0.1-0.1,0.2-0.1,0.4c0.8-0.4,1.7-0.6,2.6-0.6c0.4,0,0.8-0.1,1.1-0.2
+	c-0.4,0-0.8-0.1-1.2-0.1c1.5-0.5,3.1-1.5,4.6-1.4l0.5,0.1c1.9-0.5,3.8-0.8,5.8-0.9l-2.2-0.5c4.2-0.9,8-1.8,11.7-2.5
+	c2.2-0.4,4.5-0.5,6.8-0.8c2.7-0.3,5,0.3,6.6,2.7c2.1,3.1,4.4,6.2,6.6,9.3c1.3,1.9,2.4,3.9,3.6,5.8c2.3,4.1,6.4,6.9,11.1,7.6
+	c7.1,1,14.2,1.8,21.3,2.3c15,1.1,30,1.5,44.9,2.9c21,1.9,41,8.1,59.8,17.4c24.2,12,48.1,24.4,72.1,36.7c2.8,1.4,5.7,2.7,8.8,4.1
+	l0.7-1.2c-3.8-2-7.5-4-11.2-5.9c-21-10.7-41.8-21.6-62.7-32.1c-17.3-8.7-35.3-15.5-54.5-19c-13.3-2.4-26.8-3-40.3-3.8
+	c-11.2-0.6-22.5-1.6-33.7-2.2c-8.6-0.5-14.2-4.9-17.9-12.4c-1.6-3.3-3.3-6.7-6.4-9.1c-0.4-0.5-0.8-1-0.9-1.6c-1-2.3-3.4-3.7-5.9-3.3
+	c-4.8,0.3-9.6,0.9-14.3,1.9c-7.3,1.7-14.5,4.1-21.8,6.1c-1.9,0.5-2.7,1.2-2.5,3.4c0.2,2.2,0.2,4.4,0.1,6.6l-19.5-6.3
+	c-1.7-0.7-3.6,0-4.4,1.6c-0.4,0.8-0.7,1.7-1,2.6l3.8,2.1l1-1.4l-2.6-1.7c1-2,2.5-1.9,4.2-1.1c0.7,0.3,1.4,0.5,2.1,0.8l0.4,0.2
+	l3.2,0.7c-0.1,1,0,1.9,0.1,2.9c1.2,4,2.6,8.1,3.8,11.9c1.9,0.2,2.3-0.4,1.8-1.6c-1.5-4.1-3.1-8.3-4.8-12.8l3.2,1
+	c-0.1,0.7-0.1,1.4,0,2.1c1.9,4.1,3.8,8.1,5.7,12.3l1.7-0.6l-6.4-13.5l3.4,1.1c-0.1,0.7-0.1,1.4,0.1,2.1c1.1,2.3,2.3,4.6,3.5,6.9
+	c0.3,0.5,0.8,1.1,0.8,1.7c0.1,4.9,0.1,9.8,0.1,15l-2.4-1h0.1l-1.8-0.4c-0.3-2.1-0.5-3.9-0.8-6.2c-2.4,1.7-0.6,3.8-1.5,5.4l-1.7-0.5
+	c-1.4,10.9-7.6,18.2-17.3,22.7c-9.9,4.7-19.4,3.6-28.9-1.8l-4.4,4.2c-30.5-18.7-61.6-36.7-90.8-57.6l2.4-6.5
+	c0.6,0.1,1.1,0.2,1.6,0.4c7.2,2.4,14.3,4.8,21.5,7.1c1.2,0.4,1.6,1,1.5,2.1c0,0.1,0,0.3,0,0.4c0,2.7,0.1,2.9,2.7,3.5
+	c0.1,1.5-0.6,3.6,1.5,4.1c0.9,0.2,2.1-0.6,3.2-0.9c0.4,1.1,0.6,3.1,1.6,3.7s2.8-0.2,4.4-0.4c1.8,2.9,1.8,2.9,5.1,0.7
+	c0.9,1,1.6,2.5,2.7,2.9c0.8,0.3,2.1-1,3.5-1.7c1.8,1.9,3.9,1,5.9-0.7c1.1-0.9,2.3-0.5,3.6-0.1c8.2,3,16.5,5.9,24.7,8.8
+	c0.2,0.1,0.5,0.1,0.7,0.2c2.8-3.4,2.8-3.7,0.6-5.2l1.9,0.3c1.9-4.1,5-7.5,8.8-9.8c6.6-3.9,13.8-4.4,21.1-3.7
+	c0.6,0.1,1.2,0.2,1.9,0.2c1.2,0.1,1.2,0.1,1.5-1.7l-9.2-0.9c0-2-0.1-4.1-0.1-6.4c-0.5-0.2-1-0.3-1.5-0.4
+	c-11.4-1.4-21.7-5.9-32.1-10.4c-1.3-0.5-2.6-0.8-4-0.8c-20.4,0.1-40.7,0.3-61.1,0.5c-3.1,0-6.2,0.5-9.3,0.7c-0.5,0-1.1-0.1-1.6-0.2
+	l-0.4,0.1c-2.9,1.5-4.1,3.8-4.5,7c-0.4,2-1,3.9-1.7,5.8l0.1,0.4c0.6,0.8,1.3,1.6,2,2.3c2,1.6,4.1,3.2,6.2,4.7
+	c1.1,0.8,2.1,1.6,3.3,2.3c11.3,6.9,20.8,16.1,30.9,24.6c5.6,4.7,11.1,9.6,16.7,14.3c0.6,0.5,1.2,0.9,1.9,1.2
+	c10.7,3.7,21.4,7.4,32.1,11c0.6,0.1,1.2,0,1.8-0.4c1.2-1,2.3-2.2,3.5-3.3c5,2.8,10.6,4.4,16.4,4.4c-0.5,3-1,5.8-1.6,8.7l14,5.2
+	c-1.7,1.9-3.2,3.6-4.8,5.3c-0.7,0.5-0.9,1.6-0.4,2.3c0,0,0,0,0,0c5.5,9.3,11,18.5,18.1,26.7c1.8,2,3.9,3.8,6,5.4
+	c1.2,1.1,2.9,1.2,4.2,0.2c-0.5-0.4-1-0.8-1.5-1.2c-1.2-0.7-2.6-1-3.6-1.9c-5.9-5.1-9.9-11.7-14.5-18.4l1,0.2
+	c-0.5-0.4-0.9-0.8-1.2-1.3c-0.1,0-0.2,0.1-0.3,0.2l-3-4.8l1.2,0.4c-0.4-0.5-0.7-1-1-1.5l-0.4,0.1c0,0.2-0.1,0.4-0.1,0.6l-1.6-2.7
+	c-1.7-2.8-1.7-2.8,0.5-5.4c0.5-0.8,1.4-1.2,2.4-0.9c0.2-0.5,0.5-1.1,0.8-1.6l-0.4-0.1c0-0.2-0.1-0.3-0.1-0.5
+	c0.4-0.1,0.8-0.4,1.2-0.6c0.4-0.6,0.9-1.3,1.4-1.9c0.2-0.7,0.7-1.2,1.3-1.5c0.6-0.7,1.3-1.3,1.9-2h-0.1c0.9-1.4,1.2-2,1.9-2.1
+	c0.5-0.7,0.9-1.3,1.4-1.8l0,0l0.1-0.1c0,0,0.1-0.1,0.1-0.1l1.4-1.6l0.2,0.1c0.5-0.5,1.1-0.9,1.7-1.2l-0.6-0.2c2.7-3,5.3-5.9,7.9-8.8
+	c0.5-0.7,1.4-0.9,2.1-0.4c0,0,0,0,0.1,0c9,4.5,18,8.8,27,13.3c3.2,1.7,6.4,3.7,9.3,5.9c1.3,0.8,2.3,2,2.8,3.4c1.4,4.3,4.4,7,8,9.3
+	c9.4,5.9,17.9,13.2,26.6,20c12.2,9.5,25.7,17.3,39.2,24.8c8.1,4.5,16.2,9,24.6,12.9c12,5.6,24.9,9,37.6,12.8
+	c13.3,3.9,26.6,7.9,39.9,12.1c5.4,1.6,10.2,4.5,14,8.6c3.2,3.5,3.8,7,1.7,10.4l-3.2-4.3l2.2-1.1l-0.3-1.7c-1.9,0.5-3.8,2.5-5.3-0.1
+	c0.7-1.5,3.8,0.7,3.5-2.4c-2.4-0.8-4.5,1.4-6.9,0.6c0.6-1.8,4-0.6,3.1-3.8l-6.4,2.5c0.7-2.5,4-1.2,3.8-4.5l-7,3
+	c0.8-1.9,3.7-1.2,3.1-4.1l-6.2,3c0.2-2.6,3.8-2.5,3.2-5.8l-6.2,4.8c0.1-2.6,3.8-2.5,2.6-5.8c-1.3,1.1-2.5,2.2-3.7,3.4
+	c-0.9,1.1-1.8,1.2-3.1,0.4c0.7-0.7,1.5-1.4,2.3-2c1-0.6,1.4-1.2,0.3-2.5c-1.2,0.9-2.4,1.9-3.5,2.9c-0.8,1-2.2,1.1-3.1,0.4
+	c0,0-0.1-0.1-0.1-0.1l4.1-3.4c-0.1-0.3-0.2-0.8-0.5-1.8c-1.6,1.3-3.1,2.2-4.3,3.4c-1.6,1.5-1.5,1.5-3.5,0.5c0.6-1.8,3.5-1.9,3.2-5.1
+	l-6.2,4.8c-0.5-2.5,3.3-2.9,1.6-5.8l-4.1,4.7l-1.8-0.5l2.8-4.9l-0.8-0.6l-4.2,4.8l-2.2-0.6l2.8-4.2l-1.4-1.1l-3.2,4.8l-1.5-0.4
+	c-0.8-2,3.1-2.7,1-5.3l-3.4,4.6l-2.3-0.6c-0.1-2.1,3.1-2.7,2-5.2c-2.5,0.6-2.8,3.8-4.9,4.6l-0.6-0.6c0.5-1.2,1.1-2.5,1.7-3.9
+	l-1.3-1.4l-2.4,4.9l-2.4-0.7c0.9-1.5,1.7-2.8,2.5-4.1l-1.3-1.1l-3,4.7l-2-0.5l2.6-4.1c-1.9-0.7-2.4-0.3-4.3,3.5l-2.6-0.7
+	c0.5-0.8,0.8-1.4,1.3-2s1-1.2,1.5-1.9l-1.2-1.5l-3.5,4.7l-2.2-0.7c0.8-1.3,1.5-2.5,2.1-3.8c0.1-0.2-0.2-0.7-0.4-1
+	c-2.4,0.3-2.1,3.7-4.8,4.2c0.8-2.1,1.4-3.7,2-5.6c-1.7,0.3-1.8,0.4-3.7,4.5l-1.7-0.4l2.5-4.2l-1.6-0.6c-1.3,1.3-1.4,3.6-4.1,4
+	c0.9-1.8,1.6-3.3,2.6-5.1c-2.8,0.5-3.2,2.7-4.4,4.2l-2.1-0.8l2.8-3.7c-2-0.8-2-0.8-4.3,3.1l-1.8-0.6c-0.1-2.1,3.1-2.7,1.8-5.6
+	c-1.2,1.5-2.3,2.6-3.1,3.8c-0.5,0.8-0.9,1.2-1.7,0.5l-1-0.6l-2.3-0.6l3-4.7c-3.5-0.6-3.4,3.3-5.6,3.6c-0.7-2.4,2.9-3.1,1.3-6
+	l-3.6,4.8l-2.1-1c-0.3-2.3,3.2-2.8,1.9-5.9l-4.1,4.7l-1.4-0.5l2.9-5.4c-3,0.2-3.2,2.6-4.5,4.3l-1.7-0.8c0.6-2.5,3.7-3.3,3.7-6.3
+	c-2.6,0.9-3.8,3.2-5.4,5l-1.4-0.8l3.5-4.8l-0.4-0.4c-2.3,0.4-3.3,2.6-4.9,4.1l-2-1.3c1-1,2.1-1.9,3.3-2.7c1.1-0.6,1.1-1.1,0.2-2.4
+	c-1.4,1.1-2.8,2.3-4.2,3.3c-0.4,0.2-0.9,0.4-1.3,0.5c0-0.5-0.1-1.1,0.2-1.4c1-1.2,2.2-2.3,3.6-3.7c-3.5-0.9-4.3,2.4-6.2,3.7
+	l-0.5-0.5c1.1-1.3,2.2-2.5,3.4-3.9l-1-1.4l-4.1,4.2l-2-1.3l3.6-4.1l-0.5-0.5c-2.1,0.1-3.2,1.9-4.4,3.3c-1.6-0.6-1.6-1-0.4-2.4
+	c0.5-0.7,1-1.4,1.5-2.2l-0.8-0.7l-3.7,3.3l-1.5-0.9l2.2-2.8l-1.1-1.3l-2.7,2.9L403,388l2.6-3.7l-1.3-1.1l-2.8,3.6l-2.4-1.6l2.1-3.6
+	l-1.5-0.9l-2.1,3.3L396,383c0.5-1.5,0.9-2.9,1.3-4.2l-0.7-0.4l-2.5,3.2l-1.7-1.2c0.6-0.9,1.2-1.8,1.8-2.7l-1.5-0.8l-1.8,2.4
+	l-1.8-1.2l1.9-3.4c-2.5-1.2-2.2,1.6-3.7,2l-1.9-1.3l1.9-3.1l-1.3-1.2l-2.1,3l-1.3-1l1.9-2.3l-1.3-1.1l-2.1,2.3l-1.8-1.2
+	c0.4-1.3,0.8-2.4,1.1-3.5l-0.7-0.3l-2.3,2.4l-1.8-1.3c0.4-1.3,0.8-2.5,1.2-3.8c-2.2-0.4-2,1.5-2.9,2.4l-1.4-1c0.7-1,1.2-1.9,1.9-2.9
+	l-1.5-0.7c-0.6,0.8-1.2,1.5-1.8,2.4l-1.5-0.9l2.4-3.9c-2.9-1.2-2.5,2.1-4.3,2.4l-1.4-1l1.6-2.1l-1.7-1l-1.2,1.9l-1.6-1.1l1.3-2
+	l-1.2-1.2c-0.5,0.6-1,1.2-1.5,2l-1.8-1.3l1.7-2.3c-1.7-0.8-1.7-0.8-3.1,1.1l-1.6-1l1.3-3.4l-1.7-0.5c-0.4,0.8-0.7,1.6-1,2.4
+	c-2.5-1.1-2.5-1.2-1.7-3.4c0.2-0.5-0.2-1.2-0.4-2.3l-2.1,2.8l-1.5-1.1c0.5-0.9,1.9-1.7,0.1-2.7l-1.8,1.5l-1.7-1.2l1.8-3l-0.3-0.5
+	c-1.3,0.4-2.5,1.1-3.3,2.2l-0.5-0.5c0.7-1.1,1.4-2.1,2.2-3.3l-1.5-0.9l-2.2,3l-2-1.4l2.6-2.8l-1.4-1l-2.7,2.7l-1.9-1.2l3.3-2.8
+	c-0.7-1-1.1-1.7-2.2-0.5c-0.6,0.6-1.3,1.2-2.1,1.6c-0.6,0.2-1.2,0.4-1.9,0.4l-0.3-0.6c0.9-0.9,1.8-1.8,2.8-2.7c1-0.7,1.2-1.4,0-2.5
+	c-1.3,1.2-2.6,2.5-3.9,3.7c-0.4,0.4-1,0.6-1.7,0.6c-3.9-1-8.1-0.1-11.2,2.4c-6,4.5-10.7,10.4-13.8,17.2c-2.8,6.2-1.9,12.2,2.1,16.5
+	c1.1-0.4,1.4-0.9,0.6-2c-2.7-3.5-3.3-8.2-1.7-12.3c3-7.5,8.1-14,14.7-18.7c3-2.3,7.2-2.6,10.5-0.8c3.5,1.9,6.9,4,10.1,6.4
+	c6.8,4.9,13.3,10.1,20.1,15c17.9,13.1,35.9,26.1,54,39c14.5,10.4,30.8,16.8,47.7,21.9c15.2,4.6,30.6,8.8,45.9,13.2
+	c7.2,2.1,14.5,4.2,20.9,8.4c3.6,2.4,6.7,5.2,7.1,9.8c0.2,1.8-0.3,3.7-0.5,6l0.9,0.6c0.2-0.2,0.4-0.3,0.5-0.5c1.1-2.4,0.9-4.9,1-7.4
+	c0-2.3,1.8-4.6,2-6.9c0.3-3.6-1.9-6.3-4.4-8.7c-4.6-4.5-10.3-7.1-16.4-9c-12.7-3.9-25.4-7.6-38.1-11.3c-14.3-4.2-28.8-8.1-42-15.1
+	c-10.9-5.8-21.7-11.9-32.5-18c-13-7.5-25.4-16.3-36.8-26c-4.7-4-10-7.2-15-10.7c-3.2-2.2-6.3-4.5-7.5-8.5c-0.9-2.8-3.2-4.5-5.6-5.9
+	c-7.3-4-14.7-8.1-22.1-12c-4.4-2.3-9.1-4.3-13.6-6.5c-0.7-0.5-1.8-0.4-2.3,0.4c0,0-0.1,0.1-0.1,0.1c-3.1,3.6-3.1,3.5-7.5,1.7
+	l-3.6-1.5c4.8-4.2,8.1-9.9,9.2-16.1c2.3-0.3,4.1,2.2,6.5,0.9c0,0.2,0.1,0.5,0.1,0.8c0.1,4,0.1,4,4,5.1c9.9,2.7,19.8,5.4,29.8,7.9
+	c2.9,0.7,5.8,1.2,8.8,1.3c2,0.1,4-0.2,5.9-1c2.8-1.3,5.9-1.8,9-1.5c6.7,0.8,13.5,2.1,20.2,2.1c28.4,0.2,55.8,6.7,83.2,13.3
+	c11.8,2.9,22.8,8.1,33.8,13.2c13.2,6.1,26.3,12.4,39.5,18.5c3.5,1.5,7.1,2.8,10.7,3.9c1.9,0.5,3.8,0.9,5.7,1.2
+	c0.1,0.1,0.1,0.2,0.2,0.2c0.7,0.1,1.4,0.1,2.2,0.1l-0.3-0.2c4.1-0.1,7.7-0.4,10.7-2.9c0.1-0.4,0.4-0.7,0.7-0.9c0,0,0.4-0.3,0.5-0.3
+	c0.1-0.1,0.3-0.3,0.4-0.4c0.2-0.2,0.3-0.4,0.4-0.5l0.1-0.1l0.2-0.3c0,0,0-0.1,0.1-0.1c0.3-1.3,0.6-2.6,1-3.9
+	c0.2-0.6,0.6-1.1,1.1-1.4c1.9-1.6,3.2-3.8,3.8-6.2l-1.6-0.4C578.3,351.9,574.2,354,568.7,354.1z M309.9,278.6
+	c-1-2.1-1.9-3.9-2.9-6.1C310.5,273.4,310.9,274.3,309.9,278.6z M219.7,274.6c-1,0.7-2.1,1.4-3.2,1.9c-0.8,0.3-1.7,0.3-2.5-0.1
+	c-1.4-1-2.4-0.8-3.4,0.4c-0.3,0.4-0.6,0.7-1,1c-1.9-3.6-2.4-3.8-5.5-1.7c-0.9-0.9-1.7-2.2-2.7-2.4s-2.2,0.9-3.4,1.5
+	c-0.4-1.4-0.6-3-1.4-4c-1.3-1.5-2.6-0.1-3.7,0.9c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.1-0.2-0.1-0.4c0.4-1.9,0-3.4-2.2-3.9
+	c-0.2,0-0.5-0.6-0.5-0.9c0.2-1.3,0.2-2.4-1.3-2.9c0.7-0.5,1.4-0.8,2.1-1.1c0.6-0.2,1.2-0.1,1.7,0.1c2.1,1.8,2.2,1.8,4.2,0
+	c2.4,2.6,3.1,2.7,5.6,1c0.5,0.7,1.1,1.4,1.7,1.9c0.8,0.5,1.9,1.2,2.6,1c1.7-0.6,2.1,0.2,3,1.3c0.5,0.7,2,1.5,2.5,1.2
+	c1.3-0.8,1.7-0.2,2.4,0.7c0.2,0.3,0.7,0.4,1.1,0.5c1.5,0.5,3,1,4.4,1.5c-0.1,0.5-0.2,0.9-0.2,1.4
+	C219.7,273.8,219.7,274.2,219.7,274.6L219.7,274.6z M242.8,251l6.7,2.8l-0.4,0.7l-6.6-2.8L242.8,251z M236.7,248.9l4.5,3.5
+	c-0.1,0.2-0.2,0.3-0.4,0.5l-4.5-3.5L236.7,248.9z M231.8,248.9l4.5,2.7l-0.4,0.7l-4.6-2.5L231.8,248.9z M224.7,250.4l-6.6-0.8
+	C221.4,248.9,223.1,249.1,224.7,250.4L224.7,250.4z M165.1,253.2c0.2-2.4,1.6-3.2,3.9-3.2c8.8-0.1,17.6-0.6,26.4-0.3
+	c24.4,1,48.4,4.7,72.2,9.6c4.9,1,4.9,1,4.8,6.3c-10.5,0.9-19.1,4.9-24,14.9c-9.2-3.3-18.3-6.7-27.4-9.8c-2.4-0.9-4.5-1.8-5.2-4.6
+	c-0.2-0.5-0.5-1-0.9-1.4l-2.9,2.4c-0.2-0.5-0.4-0.9-0.5-1.2c-1.1-3.1-1.9-3.4-4.5-1.5c-1.1,0.8-1.6,0.5-1.8-0.7
+	c-0.1-0.5-0.2-1-0.3-1.5c-0.7-1.9-2.1-2.1-3.5-0.7c-0.5,0.5-1,1-1.1,1.2c-1.1-1.2-1.8-2.8-3-3.1c-0.7-0.2-2,1.3-3,2.1
+	c-2-1.8-3.3-2.1-4.7-0.6c-1,1.1-1.8,0.9-3,0.5c-6.7-2.2-13.4-4.4-20-6.7c-0.6-0.2-1.1-0.4-1.7-0.7
+	C164.9,254,165.1,253.6,165.1,253.2L165.1,253.2z M203.2,295.1l-0.6,0.2c-0.4-1-0.8-2-1.2-3C204,292.5,203.2,293.9,203.2,295.1
+	L203.2,295.1z M206.9,298.5c-2.1-0.8-2.3-2.4-1.6-4.4C207.8,295.3,207.8,295.5,206.9,298.5L206.9,298.5z M209.2,296.4
+	c2.4,1.4,0.5,3.4,1.5,5.1C207.6,300.2,209.3,298.2,209.2,296.4L209.2,296.4z M214.2,304.6c-3.4-1.3-1.5-4-2.1-6.4l3.1,1.9
+	L214.2,304.6z M217.3,308c-0.6-1-1.5-1.8-1.5-2.6c0.2-1.4,0.5-2.8,1-4.1C218.6,302.1,218.8,303.4,217.3,308z M221,309.7l-1.8-0.6
+	c0.3-2,0.6-3.9,1-6.3c0.8,1,1.6,1.5,1.6,2.1C221.7,306.5,221.4,308.1,221,309.7L221,309.7z M224.6,311l-1.8-0.7
+	c0.2-1.7,0.4-3.2,0.7-4.8C225.7,306.3,225.9,307.9,224.6,311L224.6,311z M227.7,311.9c-1.1-0.6-1.1-0.6-0.2-4.5
+	C228.7,309,227.9,310.4,227.7,311.9L227.7,311.9z M231,313.1l-1.5-0.5c0.1-0.7,0.2-1.3,0.3-1.8l0.3-1.6
+	C231.5,310.1,231.9,312.1,231,313.1L231,313.1z M242.6,317.1l-7.2-2.5c0.1-0.8,0.1-1.4,0.2-2.1l7.2,4.3L242.6,317.1z M273.3,330.2
+	c0.5-2.4,0.8-4.6,1.3-6.8c0.1-0.4,0.6-0.7,0.9-1l0.5,0.3c0,2.1,0,4.1-0.2,6.2c-0.3,0.9,0.1,1.8,0.8,2.3L273.3,330.2z M276.8,331.2
+	L276.8,331.2c0.4-0.6,0.6-1.3,0.8-2c0.1-2,0.1-4,0.2-6c0-0.5,0.5-1,0.7-1.5l0.6,0.2c0.1,3.4,0.2,6.8,0.4,10.5L276.8,331.2z
+	 M283.7,334.5c-1-1-2.2-1.6-2.3-2.4c-0.3-2.8-0.1-5.7-0.4-8.5c-0.2-2.4,1-2.9,2.9-3C283.8,325,283.7,329.4,283.7,334.5L283.7,334.5z
+	 M287.9,332.4c0,0.9-0.8,1.8-1.2,2.7l-0.8-0.2c-0.1-0.6-0.2-1.1-0.2-1.7c0-3.9,0.1-7.8,0.1-11.7c0-1.6,0.4-2.5,2-2.8
+	C287.8,323.4,288,327.9,287.9,332.4L287.9,332.4z M292,327.4c-0.1,1.3-1,2.5-1.5,3.8l-0.9-0.2c0.1-3.8,0.3-7.6,0.1-11.4
+	c-0.1-2.2,1-2.9,3-3.8C292.5,319.8,292.4,323.6,292,327.4L292,327.4z M298.4,317.4l2.9,1.2l-3.4,3.9
+	C298.1,320.5,298.2,319,298.4,317.4L298.4,317.4z M296.5,318.5c-0.3,1.7-0.4,3.4-0.7,5c-0.3,1-0.7,2-1.2,2.9l-0.6-0.2
+	c0.2-3.4,0.3-6.8,0.5-10.4C296.3,316.1,296.8,316.9,296.5,318.5L296.5,318.5z M492.5,332.2l-1.2-8.2c1.9,0.4,2.7,2.7,3.2,9
+	L492.5,332.2z M496.6,334c-0.6-3-1.1-5.7-1.8-9.1c1.5,0.9,3.1,1.2,3.4,2.1c0.8,2.8,1.5,5.7,2,8.6L496.6,334z M502,336.4
+	c-0.5-3-0.9-5.6-1.4-8.9c3.8,2.5,2,6.8,4,9.5c1.3,0,1.6-0.6,1.2-1.8c-0.5-1.8-0.8-3.6-1.4-6c1.4,0.9,2.6,1.3,3,2.1
+	c0.6,1.4,1.1,3,1.3,4.5c0.2,1.3,0.3,2.6,0.3,3.9L502,336.4z M511.2,340.5c-0.5-3.1-0.9-5.8-1.4-8.9c1,0.8,2.4,1.2,2.6,2
+	c0.8,2.7,1.2,5.5,1.7,8.6L511.2,340.5z M515.3,342.7c1.2-3.1-1-5.6-0.4-8.5c0.7,0.5,1.3,1.1,1.6,1.9c0.7,2.5,1.2,5.1,1.8,7.7
+	L515.3,342.7z M518.3,343.9l1.5-0.7c-0.4-2.4-0.8-4.6-1.3-7.2c1.5,1,3.3,1.5,3.7,2.5c0.9,2.9,1.6,5.9,2.1,8.9L518.3,343.9z
+	 M529,349.3l-3-1.4c0.4-3.2-1.4-5.8-1.3-8.6c2.4,0.8,2.5,0.8,3.1,2.9s1.3,4.6,1.9,6.9L529,349.3z M530.9,350.2
+	c0.7-3.1-0.6-5.8-1.4-9l2.8,1.8c0.7,2.9,1.4,5.7,2.2,8.9L530.9,350.2z M537.1,353.1c-0.3-0.1-0.5-0.4-0.6-0.7
+	c-0.8-2.8-1.5-5.6-2.2-8.5c1.7,0.5,3,1,3.3,2.9c0.4,2,0.9,4,1.6,6c0.2,0.5,0.9,0.9,1.4,1.3l0.7-0.5l-2.3-7l0.5-0.4
+	c0.9,0.6,2.3,0.9,2.7,1.8c1.1,2.7,1.9,5.5,3,8.8C542.2,355.5,539.7,354.3,537.1,353.1L537.1,353.1z M546.1,357.1
+	c1.5-3-1-5.5-1.2-8.3l3.1,1.4c-0.8,3.1,1.5,5.4,1.6,8.3L546.1,357.1z M551.9,359.3l-2.6-8.1c0.2-0.1,0.3-0.3,0.5-0.4
+	c0.8,0.5,1.8,0.8,2.2,1.4c1.4,1.9,2.5,4,3.8,6c0.5,0.8,1,1.6,1.8,2.8L551.9,359.3z M558.3,358.9c-0.9-2.1-2.6-3.8-4-5.8
+	c5.5,0.4,7,4.8,9.6,8.5C561.2,361.9,559.4,361.5,558.3,358.9L558.3,358.9z M565.7,361c-1.3-1.9-2.6-3.8-3.7-5.8c4.1,0,4.4,3.8,6.4,6
+	C567.4,361.4,566.1,361.6,565.7,361L565.7,361z M570.5,360.6l-3.2-4.5c2-0.2,2-0.2,5.1,3.4L570.5,360.6z M573.8,358.2l-2.1-2.4
+	l3.6-1.2L573.8,358.2z"/>
+<path d="M537.3,463.3c0.2,0.1,0.3,0.2,0.5,0.3c0.3-0.5,0.6-1,0.9-1.5c-1.3-0.8-2.7-1.4-4.1-1.8c-26.5-6.9-53.1-13.5-79.6-20.3
+	c-28.3-7.2-54.7-20.7-77.1-39.4c-10.2-8.5-20.8-16.4-31.3-24.5c-1.8-1.4-3.9-2.6-5.9-3.8c-4.6-3-10.3-3.7-15.5-1.8
+	c-3.2,1-6.4,2.1-9.6,3.1c-1.4,0.3-2.8,0.5-4.3,0.6c-0.6,0.2-1.1,0.4-1.7,0.7c0,0.3,0.1,0.5,0.1,0.8c1.2,0.2,2.3,0.3,3.5,0.2
+	c3-0.6,5.9-1.4,8.7-2.5c8.2-3.6,15.4-2,22.2,3.3c8.6,6.7,17.3,13.3,25.8,20c10.1,7.9,20,16,30.9,22.8c15,9.1,31.2,16.1,48.1,20.8
+	c14.1,4,28.3,7.6,42.5,11.2c0.4,0.1,0.9,0.3,1.3,0.5c0.9,0.2,1.8,0.4,2.8,0.6c0.6,0.1,1.2,0.3,1.7,0.5h0.4l-0.1-0.1l9.3,2.3
+	c0.2,0,0.3,0,0.5,0c1.3,0.3,2.5,0.6,3.7,1.2c0.2,0,0.3,0,0.5,0h0h0.1c0.2,0,0.3,0.1,0.5,0.1l16,4.1l0,0
+	C531.2,461.5,534.4,462,537.3,463.3z"/>
+<path d="M293.9,268.4l-0.4-0.2l-1.1,1.2l0.7,2.7l-0.3,0.2l-1.9-1.7l-1.1,1.2c5.5,6,9.4,12.6,9.7,21l1.5,0.2c0.2-0.2,0.3-0.3,0.3-0.4
+	c-0.3-5.2-1.8-10.3-4.5-14.8c-0.8-1.7-1.5-3.5-2-5.4C294.5,271.1,294.3,269.8,293.9,268.4z"/>
+<path d="M241.8,305.6l1.8,0.1c0.1-4.8,0.1-9.5,0.2-14.3L242,291C241.9,295.9,241.8,300.6,241.8,305.6z"/>
+<path d="M239,290.8c-0.3,0.4-0.9,0.8-0.9,1.2c0,4,0.2,7.9,0.3,11.9c0,0,0.1,0.1,0.2,0.3l1.4-0.2c0-4.4-0.1-8.7-0.1-13L239,290.8z"/>
+<path d="M236.8,301.9c-0.3-4.3-0.5-8.3-0.8-12.5l-1.8,0.3c0.2,4.1,0.5,8,0.7,12L236.8,301.9z"/>
+<path d="M230.2,299.2l1.7,0.3c0.1-4,0.1-7.8,0.2-11.7l-0.7-0.2c-0.5,0.8-0.9,1.7-1.1,2.6C230.1,293.2,230.2,296.2,230.2,299.2z"/>
+<path d="M228,288c-1.2-0.4-1.7,0-1.8,1.2c-0.1,2.9-0.3,5.8-0.4,8.9h1.8C227.8,294.7,227.9,291.4,228,288z"/>
+<path d="M219,293.8l1.9,0.7c0.3-3.3,0.5-6.4,0.7-9.5l-0.7-0.1C218.4,287.3,220.1,290.8,219,293.8z"/>
+<path d="M224.2,286.6c-0.4,0.4-1.1,0.7-1.2,1.1c-0.4,2.5-0.6,5-0.9,7.6l1.7,0.2c0.4-3,0.8-5.8,1.1-8.6L224.2,286.6z"/>
+<path d="M213.3,291l1.1-7.6l-0.8-0.4c-0.4,0.4-1.1,0.8-1.2,1.3c-0.4,1.7-0.5,3.5-0.9,5.2C211.3,290.7,211.7,291.2,213.3,291z"/>
+<path d="M217,283.8c-2.4,2.1-1.3,5-1.8,7.6c-0.1,0.3,0.7,0.8,1.1,1.1l0.5-0.1c0.3-2.8,0.5-5.7,0.8-8.5L217,283.8z"/>
+<path d="M207.4,288.4l1.7,0.8c0.3-2.3,0.6-4.5,0.9-6.6c-2.4-0.3-1.9,1.3-2,2.3S207.6,287.1,207.4,288.4z"/>
+<path d="M186.1,274.4l0.2-6l-1.8-0.1c-0.1,1.8-0.2,3.5-0.1,5.2c0,0.5,0.8,0.9,1.2,1.3L186.1,274.4z"/>
+<path d="M183.3,272.9l0.3-5.8l-1.8,0.4c0,1.3-0.1,2.7-0.3,4C181.4,272.7,181.9,273,183.3,272.9z"/>
+<path d="M308,296.8l1.8-0.2c-0.3-1.9-0.7-3.7-1-5.5H308C306.2,292.8,308.2,294.9,308,296.8L308,296.8z"/>
+<path d="M443.4,411.9l1,0.6c1-1.7,2.5-3.1,2.5-5.3C444.9,407.8,443.5,409.7,443.4,411.9z"/>
+<path d="M178.6,270l1.6,0.1c0.2-1.7,0.4-3.4,0.6-5.1C178.8,265.1,178.6,265.7,178.6,270z"/>
+<path d="M206.6,280.9c-3.2,1.1-1.2,3.6-2.8,4.9l2.1,0.9C206.1,284.9,206.3,283.1,206.6,280.9z"/>
+<path d="M351.2,308.2l-3.2-5c-0.4,1.1-0.9,2-0.7,2.1C348.3,306.2,348.4,308.4,351.2,308.2z"/>
+<path d="M343.8,305.2l3.4,3.5l0.8-0.6l-2.6-4.3L343.8,305.2z"/>
+<path d="M175,267.3l1.8,1.2c0.4-1.9,0.7-3.4,1-5.1C175.2,263.9,175.9,266,175,267.3z"/>
+<path d="M354.6,307.7c-1.4-3.8-1.9-4.1-3.8-2.9C352.4,305.4,351.8,308.3,354.6,307.7z"/>
+<path d="M173.4,261.8c0.1,2-2.2,3.6,0.2,5.2C175,264.8,175,263.4,173.4,261.8z"/>
+<path d="M169.8,260.2c-0.2,1.3-0.5,2.6-0.8,4.2c2-0.4,2.1-1.7,2.2-2.8c0.1-0.5-0.4-1-0.7-1.6L169.8,260.2z"/>
+<path d="M203.4,280.1c-2.5,1.5-2.7,3-0.6,4.3C203,283.1,203.2,281.9,203.4,280.1z"/>
+<path d="M165.4,261.8c0.5-0.4,1.3-0.8,1.5-1.3s-0.4-1.2-0.7-1.8l-0.6,0.1l-0.8,2.6L165.4,261.8z"/>
+<path d="M199.5,279.5c-2,0-1.9,1.3-1.7,2.7C200,282.3,199.5,280.8,199.5,279.5z"/>
+<path d="M343.6,307.5l-0.8-2.6c-0.5,0.8-1.2,1.4-1.1,1.7c0.3,0.6,0.9,0.9,1.5,1.4L343.6,307.5z"/>
+<path d="M246.2,258.4l-1.4,0.5c0.5,3.5,0.9,7,1.4,10.5c1.3,0,1.9-0.3,1.6-1.7c-0.4-2.3-0.5-4.6-0.8-6.9
+	C246.8,259.9,246.5,259.1,246.2,258.4z"/>
+<path d="M249.8,269.9l1.8-0.3c-0.6-3.2-1.2-6.3-1.7-9.4c-0.2-1.3-0.9-1.4-1.8-0.6C248.6,263,249.2,266.3,249.8,269.9z"/>
+<path d="M255,269.9c-0.2-1.6-0.3-3.3-0.6-4.9c-0.2-1.3-0.9-2.5-0.9-3.9s-0.8-1.3-2.1-1.3c0.3,1.5,0.6,2.9,0.9,4.3
+	c0.3,1.6,0.4,3.2,0.8,4.8c0.1,0.5,0.7,0.9,1,1.4L255,269.9z"/>
+<path d="M238.9,258.3l-1.8,0.6c0.3,3.3,0.6,6.5,1,9.9c1,0.4,1.7,0.4,1.6-1.1C239.5,264.7,239.2,261.7,238.9,258.3z"/>
+<path d="M243.3,268.5c0.4-0.4,1.1-0.8,1-1.2c-0.4-2.9-1-5.7-1.6-8.5c0-0.2-0.3-0.4-0.6-0.9c-0.4,0.7-1,1.2-1,1.7
+	c0.4,2.9,1,5.8,1.5,8.7L243.3,268.5z"/>
+<path d="M234.6,267.5l1.8-0.4c-0.2-3.1-0.4-6.1-0.6-9.1l-0.5-0.3c-0.4,0.5-1.1,1-1.1,1.5C234.3,261.9,234.5,264.6,234.6,267.5z"/>
+<path d="M231.7,266.5h1.8c-0.2-2.9-0.4-5.7-0.7-8.9l-1.7,0.7C231.3,261.1,231.5,263.7,231.7,266.5z"/>
+<path d="M228.7,265.1h1.4c0.1-0.2,0.2-0.3,0.2-0.4c-0.2-2.1-0.5-4.2-0.8-6.3c-0.1-0.5-0.8-0.8-1.2-1.2l-0.6,0.4L228.7,265.1z"/>
+<path d="M226.3,257.6c-0.4,0.5-0.6,1.1-0.8,1.7c-0.1,1.5,0.1,3.1,0.1,4.9l1.7,0.7c0-2.6-0.1-4.9-0.1-7.1L226.3,257.6z"/>
+<path d="M224.4,262.9c-0.4-1.9-0.7-3.8-1.2-5.6c-0.1-0.4-1-0.5-1.8-1c0.4,2.4,0.6,4.2,1,6c0.1,0.5,0.8,0.8,1.3,1.1L224.4,262.9z"/>
+<path d="M217.9,257.4c1.3,1.2-0.4,3.8,2.6,4.7c-0.1-1.6-0.3-3.2-0.6-4.7c-0.1-0.3-1-0.5-1.5-0.7L217.9,257.4z"/>
+<path d="M215.4,255.7c-0.4,0.5-1.1,1.1-1,1.3c0.6,1.1-0.5,3.2,2.1,3.6c-0.1-1.6-0.3-3.1-0.4-4.6L215.4,255.7z"/>
+<path d="M192,256.8c1.4,0.2,1.9-0.3,1.6-1.4c-0.3-0.9,0.3-2.7-2-2.1L192,256.8z"/>
+<path d="M188.6,256.6l2.1,0.1c0-1.3,0-2.4-0.1-3.7C187.7,253.2,189.5,255.4,188.6,256.6z"/>
+<path d="M187.7,255.5c-0.5-1.2,0.4-3-2-2.9c0,1,0.1,1.9,0.1,3.1L187.7,255.5z"/>
+<path d="M183.6,255c-0.1-1-0.3-1.9-0.4-2.9l-0.8-0.1c-0.3,0.8-0.5,1.6-0.6,2.4c0,0.4,0.8,0.7,1.3,1L183.6,255z"/>
+<path d="M211,256.6l0.6,2.3c1.1,0.1,1.8-0.1,1.5-1.4S212.3,255.9,211,256.6z"/>
+<path d="M180.4,252.1l-2.1,0.7l1.5,2.3l0.7-0.3V252.1z"/>
+</svg>
