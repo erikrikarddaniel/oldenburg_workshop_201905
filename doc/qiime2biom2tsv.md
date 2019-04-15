@@ -1,4 +1,8 @@
-# Instructions for how to export biom files QIIME2's artefacts and convert to tab separated (tsv) files
+# Export biom files QIIME2's artefacts and convert to tab separated (tsv) files
+
+## Export a biom file from a QIIME2 artefact
+
+TODO
 
 ## Install `biom-format` with Conda
 
