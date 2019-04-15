@@ -1,0 +1,11 @@
+sessionname oldenburg_workshop_201905
+setenv ROOT $PWD
+# __INSERTPOINT__ This line allows a script to insert new configuration lines here.
+chdir $ROOT/data
+screen -t data
+chdir $ROOT/processed_data
+screen -t processed_data
+chdir $ROOT
+screen -t rstudio
+screen -t man
+screen -t root
