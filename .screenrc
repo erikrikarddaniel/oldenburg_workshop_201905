@@ -3,6 +3,10 @@ setenv ROOT $PWD
 # __INSERTPOINT__ This line allows a script to insert new configuration lines here.
 chdir $ROOT/data
 screen -t data
+chdir $ROOT/doc
+screen -t doc
+chdir $ROOT/figures
+screen -t figures
 chdir $ROOT/processed_data
 screen -t processed_data
 chdir $ROOT
