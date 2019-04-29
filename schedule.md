@@ -24,14 +24,16 @@
 
 ## Friday 3 May -- fundamentals of compositional data analysis
 
-9.00-10.00: Lecture: Normalization of amplicon sequence counts (DL)
+9.00-11.00: Lecture: Normalization of amplicon sequence counts (CB and DL)
 
-10.00-10.30: Coffee
-
-10.30-12.00: Lecture: Normalization in practice (CB)
+11.00-12.00: HIFMB lecture
 
 12.00-13.00: Lunch
 
-13.00-14.00: Demonstration: Using the R/Tidyverse to analyze amplicon sequence data (DL)
+13.00-14.00: Demonstration: Using R/Tidyverse to analyze amplicon sequence data (DL)
 
-14.00-16.00: Practical: Using R/Tidyverse and different normalization methods to analyze sequence data
+14.00-15.00: Practical: Using R/Tidyverse and different normalization methods to analyze sequence data
+
+15.00-16.00: Discussion
+
+16.00-17-00: Practical continues
