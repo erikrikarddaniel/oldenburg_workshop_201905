@@ -32,4 +32,8 @@
 
 13.00-14.00: Demonstration: Using R/Tidyverse to analyze amplicon sequence data (DL)
 
-14.00-17.00: Practical: Using R/Tidyverse and different normalization methods to analyze sequence data
+14.00-15.00: Practical: Using R/Tidyverse and different normalization methods to analyze sequence data
+
+15.00-16.00: Discussion
+
+16.00-17-00: Practical continues
