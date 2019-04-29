@@ -1,9 +1,5 @@
 ##########Atacama Qiime2 example for course
 
-#####set wd
-
-setwd("/Users/cbunse/Desktop/CoDa/Qiime2workshop/qiime2-atacama-tutorial/R")
-
 ###load libraries
 
 library(tidyverse)
@@ -12,7 +8,7 @@ library(phyloseq)
 library(breakaway)
 
 ##import biom dataset
-dat <- read_biom("/Users/cbunse/Desktop/CoDa/Qiime2workshop/qiime2-atacama-tutorial/exported-feature-table/feature-table.biom")
+dat <- read_biom("feature-table.biom")
 
 #Coerce dat into a matrix and then into a data frame:
 asv_table <- as.data.frame(as.matrix(biom_data(dat)))
