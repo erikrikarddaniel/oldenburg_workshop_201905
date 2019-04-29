@@ -9,6 +9,8 @@ chdir $ROOT/figures
 screen -t figures
 chdir $ROOT/processed_data
 screen -t processed_data
+chdir $ROOT/example_R_code
+screen -t example_R_code
 chdir $ROOT
 screen -t rstudio
 screen -t man
