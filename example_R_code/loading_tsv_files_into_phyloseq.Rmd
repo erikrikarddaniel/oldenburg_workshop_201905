@@ -22,9 +22,7 @@ ggplot2::theme_set(ggplot2::theme_bw())
 suppressPackageStartupMessages(library(readr))
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(tidyr))
-suppressPackageStartupMessages(library(ggplot2))
-suppressPackageStartupMessages(library(kfigr))
-suppressPackageStartupMessages(library(knitr))
+suppressPackageStartupMessages(library(phyloseq))
 ```
 
 ```{r constants}
