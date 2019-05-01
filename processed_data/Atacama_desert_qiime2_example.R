@@ -15,10 +15,6 @@ asv_table <- as.data.frame(as.matrix(biom_data(dat)))
 #get the taxomony
 taxonomy <- observation_metadata(dat)
 
-#### here I get errors, bzw empty data...
-
-
-
 
 #get metadata
 metadata <- sample_metadata(dat)
@@ -35,4 +31,3 @@ head(asv_m)
 breakaway(asv_m)
 breakaway(apples)
 
-### I don't know how to interpret the results or graph?!?

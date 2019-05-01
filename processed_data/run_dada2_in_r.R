@@ -100,7 +100,6 @@ track <- cbind(filt_trim, sapply(dadaR1, getN), sapply(dadaR2, getN),
 colnames(track) <- c("input", "filtered", "denoisedF", "denoisedR", "merged", "nonchim")
 DT::datatable(track, options = list(pageLength=24))
 
-#taxonomy
 
 
 
