@@ -4,13 +4,14 @@
 library(CoDaSeq) # as always, check the vignette if questions arise
 library(ALDEx2)
 library(zCompositions)
+library(tidyverse)
 
 #data(ak_op)
 #data(hmpgenera)
 
 #read-in output from "qiime2biom2tsv-script"
 asvs <- read_tsv(
-  'atacama_feature_table.tsv', 
+  'feature-table.tsv', 
   col_types = cols(.default = col_double(), `#OTU ID` = col_character()), 
   skip = 1
 ) %>% 
@@ -25,7 +26,7 @@ wasvs<- asvs %>%
   tibble::column_to_rownames("asv_id")
 
 ## optional: subset and filter the dataset to a certain amount of reads, proportion, ...
-f <- codaSeq.filter(wasvs, min.reads=50, min.prop=0.001, max.prop=1,
+f <- codaSeq.filter(wasvs, min.reads=10, min.prop=0.001, max.prop=1,
                     min.occurrence=0.25,  samples.by.row=FALSE)
 
 ## replace zeros (as we will deal with geomeans later)
@@ -42,9 +43,25 @@ biplot(f.pcx, var.axes=FALSE, cex=c(0.5,0.6), scale=0)
 
 
 ### Aitchicon Distance
-
 m<- as.matrix(compositions::dist(f.clr))
-# m[upper.tri(m, diag = FALSE)] <- NA #remove redundant comparisons
+m[upper.tri(m, diag = FALSE)] <- NA #remove redundant comparisons
+
+#example tidy data for ggplot
+mw <- reshape::melt(m)  %>%  # bring data into right format
+      na.omit()   # exclude NAs
+names(mw) <- c('row', 'column', 'value')  # tidy data
+mw$row <- as.character(mw$row)  # tidy data
+mw$column <- as.character(mw$column)  # tidy data
+
+# example plot
+ggplot(mw, aes(row, column)) + 
+  geom_tile(aes(fill = value),colour = "white") +
+  scale_fill_gradient(high = "white",low = "steelblue")+ 
+  #theme(axis.text.x = element_text(angle = 45, hjust = 1))+ 
+  ggtitle("Aitchison Distance, Atacama example")+
+  theme(axis.text.x = element_text(size=6, angle=45, hjust = 1))+
+  theme(axis.text.y = element_text(size=6))              
+
 
 # Ordination (OCA of variance)
 #singular value decomposition
@@ -53,7 +70,7 @@ biplot(x)
 
 ##################################################################
 
-####Stripchart example, run the above commands for the ak_op dataset, then
+####Stripchart example if you have different treatments, run the above commands for the ak_op dataset, then
 # perform the singular value decomposition on clr transformed values
 conds <- c(rep("A", 15), rep("O", 15))
 f.x <- aldex.clr(f, conds)
@@ -79,7 +96,7 @@ x <- aldex(selex, conds, mc.samples=16, test="t", effect=TRUE,
 aldex.plot(x, type="MA", test="welch")
 aldex.plot(x, type="MW", test="welch")
 
-#clr transformation
+#clr transformation in ALDEx2
 x <- aldex.clr(selex, conds, mc.samples=16, denom="iqlr", verbose=TRUE)
 
 
