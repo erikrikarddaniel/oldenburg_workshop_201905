@@ -91,3 +91,29 @@ for ( s in counts %>% distinct(sample) %>% pull(sample) ) {
     geom_point() +
     geom_errorbar(aes(ymin = min, ymax = max))
 ```
+
+```{r add-clr}
+# Add clr values
+counts <- counts %>%
+  right_join(
+    counts %>% 
+      spread(sample, count, fill = 0) %>% 
+      data.frame() %>% tibble::column_to_rownames('asv') %>% 
+      cmultRepl(method = 'CZM', output = 'p-counts') %>% 
+      codaSeq.clr(samples.by.row = TRUE) %>%
+      data.frame() %>%
+      tibble::rownames_to_column('asv') %>% gather(sample, clr, 2:ncol(.)),
+    by = c('asv', 'sample')
+  ) %>%
+  replace_na(list(count = 0))
+```
+
+```{r aitchinson-pca}
+pca <- counts %>% 
+  dplyr::select(asv, sample, clr) %>% 
+  spread(asv, clr) %>% data.frame() %>% tibble::column_to_rownames('sample') %>% 
+  dist(diag = TRUE) %>% 
+  prcomp(scale. = TRUE)
+
+```
+
