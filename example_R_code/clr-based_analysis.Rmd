@@ -115,5 +115,13 @@ pca <- counts %>%
   dist(diag = TRUE) %>% 
   prcomp(scale. = TRUE)
 
+propexpl <- pca$sdev^2/sum(pca$sdev^2)
+
+broom::tidy(pca) %>% mutate(PC = sprintf("PC%d", PC)) %>%
+  spread(PC, value) %>%
+  ggplot(aes(x = PC1, y = PC2)) +
+  geom_point() +
+  xlab(sprintf("PC1 (%2.0f%%)", propexpl[1] * 100)) +
+  ylab(sprintf("PC2 (%2.0f%%)", propexpl[2] * 100)) 
 ```
 
