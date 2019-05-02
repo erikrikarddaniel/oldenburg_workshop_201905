@@ -59,7 +59,10 @@ filt_path <- file.path(path, "filtered")
 filtfR1 <- file.path(filt_path, paste0(sample.names, "_R1_filt.fastq.gz"))
 filtfR2 <- file.path(filt_path, paste0(sample.names, "_R2_filt.fastq.gz"))
 
-filt_trim <- filterAndTrim(fR1, filtfR1, fR2, filtfR2, truncLen=c(140,140), trimLeft = 20,
+# Now to the trimming settings, these are adjusted to the atacama soil example
+#on qiime2 but need to be changed for your own dataset!
+filt_trim <- filterAndTrim(fR1, filtfR1, fR2, filtfR2, truncLen=c(150,150), 
+                           trimLeft = 13, trimRight = 13,
                            maxN=0, maxEE=c(2,2), truncQ=2, rm.phix=TRUE,
                            compress=TRUE, multithread=TRUE)
 
