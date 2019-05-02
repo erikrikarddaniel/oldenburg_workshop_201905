@@ -1,0 +1,93 @@
+---
+title: "How to run some compositional methods on data from QIIME2/DADA2"
+author: "carina.bunse@hifmb.de and daniel.lundin@lnu.se"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_height: 9
+    fig_width: 8
+    number_sections: yes
+    toc: yes
+  html_document:
+    toc: yes
+---
+
+```{r setup, echo=F, cache = FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.path='figures/', cache = TRUE)
+ggplot2::theme_set(ggplot2::theme_bw())
+```
+
+```{r libraries, message = FALSE, cache = FALSE}
+suppressPackageStartupMessages(library(readr))
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(tidyr))
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(breakaway))
+```
+
+```{r constants}
+```
+
+# Introduction
+
+```{r read-data}
+counts <- read_tsv(
+  '../processed_data/feature-table.tsv', 
+  skip = 1, 
+  col_types = cols(.default = col_double(), `#OTU ID` = col_character())
+) %>%
+  rename(asv = `#OTU ID`) %>%
+  gather(sample, count, 2:ncol(.)) %>%
+  filter(count > 0) %>%
+  group_by(sample) %>% filter(sum(count) > 100) %>% ungroup()
+```
+
+## Estimate actual richness
+
+The `breakaway` package (https://rdrr.io/cran/breakaway/) supplies methods to esimate the true species richnes from
+compositional count data, without rarefying. It gives you a point estimate plus an estimate of the standard error.
+
+It's not so accessible for a biologist, however. Instead of starting with a table consisting of counts per ASV and
+sample and giving you an estimated richness per sample, you have to: 1) do it once per sample and 2) start with a
+table that consists of "counts of counts". With counts of counts I mean that the algorithm wants to know how many 
+times an ASV with a certain number, 10 say, observations were found. Moreover, the first line needs to be the
+number of times singletons were observed, i.e. how many times did you see a sequence that only appeared once in the
+sample.
+
+```{r estimate-richness}
+# Create a table that will contain species richness for each sample
+est_richness <- tibble(sample = character(), richness_est = double(), richness_se_est = double())
+
+# Loop over all samples
+for ( s in counts %>% distinct(sample) %>% pull(sample) ) {
+  # Calculate estimated species richness for the sample `s`
+  r <- counts %>% filter(sample == s) %>%
+    # Create a "frequency count" table required by the Willis/Bunge methods
+    group_by(count) %>%
+    summarise(n = n()) %>%
+    ungroup() %>%
+    arrange(count) %>%
+    # Turn it into a data.frame, because tibbles didn't work
+    as.data.frame() %>%
+    # Calculate the richness
+    breakaway(print = FALSE, plot = FALSE, answers = TRUE)
+  
+  # Often, the algorithm doesn't converge, i.e. produce a result so we have to test if `r` is null before trying to add
+  # it to the table.
+  if ( ! is.null(r) ) {
+    # Add the current result to the growing table
+    est_richness <- est_richness %>%
+      union(
+        tibble(sample = s, richness_est = r$est, richness_se_est = r$seest)
+      )
+  }
+}
+  
+  # Plot
+  est_richness %>%
+    mutate(min = richness_est - richness_se_est, max = richness_est + richness_se_est) %>%
+    ggplot(aes(x = sample, y = richness_est)) +
+    geom_point() +
+    geom_errorbar(aes(ymin = min, ymax = max))
+```
