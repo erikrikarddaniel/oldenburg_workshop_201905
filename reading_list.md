@@ -1,5 +1,3 @@
-# Books
-
 # Literature
 
 ## (Amplicon) statistics in general
@@ -18,9 +16,11 @@ And a link to a workshop held by G. Gloor about CoDa analysis for sequencing dat
 
 ### Papers
 
-CoDa approach: Gloor, G. B., Macklaim, J. M., Pawlowsky-Glahn, V., & Egozcue, J. J. (2017). Microbiome datasets are compositional: and this is not optional. Frontiers in microbiology, 8, 2224.
+The paper that started the whole discussion: Rarefy or not: McMurdie, Paul J., and Susan Holmes. "Waste not, want not: why rarefying microbiome data is inadmissible." PLoS computational biology 10.4 (2014): e1003531.
 
-Rarefy or not: McMurdie, Paul J., and Susan Holmes. "Waste not, want not: why rarefying microbiome data is inadmissible." PLoS computational biology 10.4 (2014): e1003531.
+Best paper with practical tips: Gloor, G. B., Macklaim, J. M., Pawlowsky-Glahn, V., & Egozcue, J. J. (2017). Microbiome datasets are compositional: and this is not optional. Frontiers in microbiology, 8, 2224.
+
+Correlation analysis: Badri, Michelle, Zachary Kurtz, Christian Muller, and Richard Bonneau. 2018. “Normalization Methods for Microbial Abundance Data Strongly Affect Correlation Estimates,” August. https://doi.org/10.1101/406264.
 
 ### Books
 
