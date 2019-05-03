@@ -1,0 +1,176 @@
+---
+title: "Oldenburg demo"
+author: "Daniel Lundin"
+date: "5/3/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+This is code from the demo held at the Oldenburg amplicon workshop, May, 2019.
+
+The code runs with data in the current Git repository, but you should make sure to change working directory to the directory where this file
+is placed. Use the button with the cog wheel in the "Files" tab or RStudio.
+
+When you run the code, don't hesitate to run the first lines, instead of complete chunks, as this often helps you understand.
+
+```{r}
+# Load the Tidyverse package of packages
+library(tidyverse)
+library(zCompositions)
+library(CoDaSeq)
+```
+
+```{r read-table}
+# Read the tsv file with asv counts per sample
+counts <- read_tsv(
+  '../processed_data/feature-table.tsv',
+  skip = 1, # Skip the first line of the file
+  col_types = cols(.default = col_double(), `#OTU ID` = col_character()) # Define types of data
+) %>%
+  # Rename the oddly called #OTU ID column
+  rename(asv = `#OTU ID`) %>%
+  # Make the table long
+  gather(sample, count, 2:ncol(.)) %>%
+  # Take away the zeroes
+  filter(count > 0)
+
+# Read the sample "metadata"
+samples <- read_tsv(
+  '../processed_data/samples.tsv',
+  col_types = cols(
+    .default = col_double(),
+    SampleID = col_character(),
+    BarcodeSequence = col_character(),
+    LinkerPrimerSequence = col_character(),
+    ExtractGroupNo = col_character(),
+    TransectName = col_character(),
+    SiteName = col_character(),
+    Vegetation = col_character(),
+    Description = col_character()
+  )
+)
+
+# And the taxonomy
+taxonomy <- read_tsv(
+  '../processed_data/taxonomy.tsv',
+  col_types = cols(.default = col_character(), Confidence = col_double())
+) %>%
+  rename(asv = `Feature ID`) %>%
+  mutate(Taxon = gsub('[a-z]__', '', Taxon)) %>%
+  separate(Taxon, c('domain', 'phylum', 'class', 'order', 'family', 'genus', 'species'), sep = ';', fill = 'right')
+```
+
+# Sequencing depth
+
+Let's plot the number of sequences per sample, to see if there are problematic samples.
+
+```{r plot-seq-depth}
+# We need to sum the counts in the counts table so we have one number per sample.
+counts %>%
+  # Calculate a sum by sample
+  group_by(sample) %>% summarize(count = sum(count)) %>% ungroup() %>%
+  # Plot sample names on the x axis, counts on the y
+  ggplot(aes(x = sample, y = count)) +
+  # Dotplot
+  geom_point() +
+  # Flip x and y 
+  coord_flip() +
+  # Add a line to show where we want to filter small samples
+  geom_hline(yintercept = 500)
+```
+
+```{r filter-small samples}
+# Since this chunk overwrites the original table, it's not a very good idea to run pieces of it!!!
+
+# From here on, we only want to deal with samples that have at least 500 observations/counts
+counts <- counts %>%
+  # Group by sample, to get access to the group wise sum of counts
+  group_by(sample) %>% 
+  # Filter to keep only rows from samples having at least 500 counts
+  filter(sum(count) >= 500) %>% 
+  # Since we have the data grouped, we can calculate the relative abundance here
+  mutate(relab = count/sum(count)) %>%
+  ungroup()
+```
+
+# Phylum bar plot
+
+A classical plot in microbial ecology is the sum of phyla per sample, to see at a very high level if samples are very similar or not.
+
+```{r phylum-stacked-bar}
+counts %>% 
+  # Join in the taxonomy, to get access to the phylum for each ASV
+  left_join(taxonomy, by = 'asv') %>%
+  # Replace missing phyla with 'Unknown phylum'
+  replace_na(list('phylum' = 'Unknown phylum')) %>%
+  # Calculate a sum of relative abundance per sample and phylum
+  group_by(sample, phylum) %>% summarise(relab = sum(relab)) %>% ungroup() %>%
+  # Plot this sum on the y axis, with samples on the x. Use fill to show phyla.
+  ggplot(aes(x = sample, y = relab, fill = phylum)) +
+  # geom_col for barplots from numerical data
+  geom_col() +
+  # Flip the axes so you can read the sample names
+  coord_flip()
+```
+
+# Calculate CLR and perform a PCA based on Aitchinson distances
+
+```{r calculate-clr}
+# Add a column to the counts table with centered log ratios
+counts <- counts %>%
+  # We need to make the table wide, but before that, delete the relab column that can't fit in the wide table
+  dplyr::select(-relab) %>%
+  # Make wide with *samples* as columns, fill missing values with zeroes
+  spread(sample, count, fill = 0) %>%
+  # We need a numerical matrix, so let's move the asv name to rownames
+  column_to_rownames('asv') %>%
+  # Replace zeroes with probabilities
+  cmultRepl(method = 'CZM', output = 'p-counts') %>%
+  # Calculate the CLR
+  codaSeq.clr(samples.by.row = FALSE) %>%
+  data.frame() %>%
+  rownames_to_column('sample') %>%
+  # Make the table long so we can join it with the original data
+  gather(asv, clr, 2:ncol(.)) %>%
+  # Join in the original data
+  left_join(counts, by = c('sample', 'asv'))
+```
+
+With *C*entered *L*og *R*atio data, we have normally distributed data, that can be used to perform a *P*rinciple *C*omponent *A*nalysis
+after calculation of euclidian distances.
+
+```{r}
+pca <- counts %>%
+  # We need a wide table with clr values, asvs as columns and samples as rows
+  dplyr::select(-count, -relab) %>%
+  spread(asv, clr) %>%
+  column_to_rownames('sample') %>%
+  # The dist functions calculates, by default, euclidian distances between rows in the table
+  dist() %>%
+  # PCA is performed with the prcomp function
+  prcomp(scale. = TRUE)
+
+# Plot the PCA, coloured by soil relative humidity.
+# The broom package tries to turn odd data objects into tidy tables more suitable for ggplot2 plotting.
+pca %>% broom::tidy() %>%
+  # Add 'PC' to the start of the PC column
+  mutate(PC = sprintf("PC%d", PC)) %>%
+  # Join in data about the samples ("metadata")
+  inner_join(samples, by = c('row' = 'SampleID')) %>%
+  # Make it wide so we get a PC1 column, a PC2 etc. to plot. Each column will contain the coordinate of each principal component, so can be
+  # used as aesthetics in the plot.
+  spread(PC, value) %>%
+  # Plot the first two components, use average soil relative humidity to colour
+  ggplot(aes(x = PC1, y = PC2, colour = AverageSoilRelativeHumidity)) +
+  geom_point() +
+  scale_color_viridis_c() +
+  # Calculate the proportion of variance explained by the two principal components
+  xlab(sprintf("PC1 (%2.0f%%)", pca$sdev[1]^2/sum(pca$sdev^2) * 100)) +
+  ylab(sprintf("PC2 (%2.0f%%)", pca$sdev[2]^2/sum(pca$sdev^2) * 100))
+```
+
