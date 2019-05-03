@@ -1,0 +1,47 @@
+---
+title: "Oldenburg demo"
+author: "Daniel Lundin"
+date: "5/3/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Load the Tidyverse package of packages
+library(tidyverse)
+```
+
+```{r}
+# Read the tsv file with asv counts per sample
+counts <- read_tsv(
+  '../processed_data/feature-table.tsv',
+  skip = 1, # Skip the first line of the file
+  col_types = cols(.default = col_double(), `#OTU ID` = col_character()) # Define types of data
+) %>%
+  # Rename the oddly called #OTU ID column
+  rename(asv = `#OTU ID`) %>%
+  # Make the table long
+  gather(sample, count, 2:ncol(.)) %>%
+  # Take away the zeroes
+  filter(count > 0)
+```
+
+```{r plot-seq-depth}
+counts %>%
+  # Calculate a sum by sample
+  group_by(sample) %>%
+  summarize(count = sum(count)) %>%
+  ungroup() %>%
+  # Plot sample names on the x axis, counts on the y
+  ggplot(aes(x = sample, y = count)) +
+  # Dotplot
+  geom_point() +
+  # Flip x and y 
+  coord_flip() +
+  # Add a line to show where we want to filter small samples
+  geom_hline(yintercept = 500)
+```
+
