@@ -12,9 +12,11 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 # Load the Tidyverse package of packages
 library(tidyverse)
+library(zCompositions)
+library(CoDaSeq)
 ```
 
-```{r}
+```{r read-table}
 # Read the tsv file with asv counts per sample
 counts <- read_tsv(
   '../processed_data/feature-table.tsv',
@@ -27,6 +29,29 @@ counts <- read_tsv(
   gather(sample, count, 2:ncol(.)) %>%
   # Take away the zeroes
   filter(count > 0)
+
+samples <- read_tsv(
+  '../processed_data/samples.tsv',
+  col_types = cols(
+    .default = col_double(),
+    SampleID = col_character(),
+    BarcodeSequence = col_character(),
+    LinkerPrimerSequence = col_character(),
+    ExtractGroupNo = col_character(),
+    TransectName = col_character(),
+    SiteName = col_character(),
+    Vegetation = col_character(),
+    Description = col_character()
+  )
+)
+
+taxonomy <- read_tsv(
+  '../processed_data/taxonomy.tsv',
+  col_types = cols(.default = col_character(), Confidence = col_double())
+) %>%
+  rename(asv = `Feature ID`) %>%
+  mutate(Taxon = gsub('[a-z]__', '', Taxon)) %>%
+  separate(Taxon, c('domain', 'phylum', 'class', 'order', 'family', 'genus', 'species'), sep = ';', fill = 'right')
 ```
 
 ```{r plot-seq-depth}
@@ -43,5 +68,36 @@ counts %>%
   coord_flip() +
   # Add a line to show where we want to filter small samples
   geom_hline(yintercept = 500)
+```
+
+```{r}
+counts <- counts %>%
+  group_by(sample) %>% 
+  filter(sum(count) >= 500) %>% 
+  mutate(relab = count/sum(count)) %>%
+  ungroup()
+```
+
+```{r }
+counts %>% 
+  left_join(taxonomy, by = 'asv') %>%
+  replace_na(list('phylum' = 'Unknown phylum')) %>%
+  group_by(sample, phylum) %>% summarise(relab = sum(relab)) %>% ungroup() %>%
+  ggplot(aes(x = sample, y = relab, fill = phylum)) +
+  geom_col() +
+  coord_flip()
+```
+
+```{r}
+counts <- counts %>%
+  dplyr::select(-relab) %>%
+  spread(sample, count, fill = 0) %>%
+  column_to_rownames('asv') %>%
+  cmultRepl(method = 'CZM', output = 'p-counts') %>%
+  codaSeq.clr(samples.by.row = FALSE) %>%
+  data.frame() %>%
+  rownames_to_column('sample') %>%
+  gather(asv, clr, 2:ncol(.)) %>%
+  left_join(counts, by = c('sample', 'asv'))
 ```
 
