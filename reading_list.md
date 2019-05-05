@@ -20,7 +20,7 @@ The paper that started the whole discussion: Rarefy or not: McMurdie, Paul J., a
 
 Best paper with practical tips: Gloor, G. B., Macklaim, J. M., Pawlowsky-Glahn, V., & Egozcue, J. J. (2017). Microbiome datasets are compositional: and this is not optional. Frontiers in microbiology, 8, 2224.
 
-Correlation analysis: Badri, Michelle, Zachary Kurtz, Christian Muller, and Richard Bonneau. 2018. “Normalization Methods for Microbial Abundance Data Strongly Affect Correlation Estimates,” August. https://doi.org/10.1101/406264.
+Correlation analysis: Badri, Michelle, Zachary Kurtz, Christian Muller, and Richard Bonneau. 2018. ???Normalization Methods for Microbial Abundance Data Strongly Affect Correlation Estimates,??? August. https://doi.org/10.1101/406264.
 
 ### Books
 
@@ -30,6 +30,8 @@ This book mentions state of the art analyses, an example for 18S rRNA gene ampli
 ## Courses
 
 Workshop on Genomics (course, experts, lectures, scripts, examples, ...) http://evomics.org/ 
+
+RaukR Course Advanced R for bioinformatics: https://nbisweden.github.io/workshop-RaukR-1806/ 
 
 ## Programming in Tidyverse/data analysis
 
